@@ -1,0 +1,5 @@
+alias docker-maas="/home/eterehov/docker/scripts/start-maas-postgres-rabbit.sh"
+alias docker-sonar="/home/eterehov/docker/scripts/start-sonar-w-postgres.sh"
+alias docker-stop-all="sudo docker stop $(docker ps -aq)"
+export TODO_DIR="/home/eterehov/Dropbox/todo"
+alias t="todo.sh -at -d $TODO_DIR/cli/todo.cfg"
