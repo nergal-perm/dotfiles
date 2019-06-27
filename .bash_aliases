@@ -1,6 +1,6 @@
 alias docker-maas="$HOME/docker/scripts/start-maas-postgres-rabbit.sh"
 alias docker-sonar="$HOME/docker/scripts/start-sonar-w-postgres.sh"
-export TODO_DIR="$HOME/Dropbox/todo"
 alias t="$TODO_DIR/cli/todo.sh -at -d $TODO_DIR/cli/todo.cfg"
 alias todo-work="t watch lsp b-c \"@work\|@computer\|@internet\""
-alias todo-personal="t watch lsp b-c \"@home\|city\""
+alias todo-personal="t watch lsp b-c \"@home\|@city\""
+alias todo-birthdays="t -x listfile birthdays.txt | grep $1"
