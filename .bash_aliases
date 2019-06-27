@@ -1,6 +1,5 @@
 alias docker-maas="$HOME/docker/scripts/start-maas-postgres-rabbit.sh"
 alias docker-sonar="$HOME/docker/scripts/start-sonar-w-postgres.sh"
-alias docker-stop-all="sudo docker stop $(docker ps -aq)"
 export TODO_DIR="$HOME/Dropbox/todo"
 alias t="$TODO_DIR/cli/todo.sh -at -d $TODO_DIR/cli/todo.cfg"
 alias todo-work="t watch lsp b-c \"@work\|@computer\|@internet\""
