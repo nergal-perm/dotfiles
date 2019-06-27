@@ -47,3 +47,9 @@ function! s:goyo_enter()
 		  
 autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
+
+set nocompatible
+syntax enable
+filetype plugin on
+set path+=**
+set wildmenu
