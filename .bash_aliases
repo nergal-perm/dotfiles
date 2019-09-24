@@ -8,4 +8,5 @@ alias todo-birthdays="t -x listfile birthdays.txt | grep $1"
 alias add-note="$USEFUL_SCRIPTS/bash/create-vim-note.sh $1"
 alias add-diary="$USEFUL_SCRIPTS/bash/create-diary-note.sh $1"
 alias update-exit="sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y && shutdown -P now"
+alias vim-notes="cd $PERSONAL_WIKI && vim"
 
