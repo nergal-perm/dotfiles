@@ -17,8 +17,8 @@ let g:vim_markdown_folding_disabled=1
 set conceallevel=0
 
 " Goyo & Limelight setup
-let g:limelight_conceal_ctermfg = 240
-let g:goyo_linenr=1
+" let g:limelight_conceal_ctermfg = 240
+" let g:goyo_linenr=1
 
 " Auto run Goyo when opening markdown files
 augroup markdown
@@ -28,10 +28,9 @@ augroup END
 
 function! SetUpMk()
 	colorscheme dracula
-	if !exists('#goyo')
-		Goyo 85
-	endif
-	Limelight
+"	if !exists('#goyo')
+"		Goyo 85
+"	endif
 	set number relativenumber
 	highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 	match OverLength /\%81v.\+/
@@ -42,6 +41,7 @@ function! s:goyo_enter()
 	let b:quitting_bang = 0
 	autocmd QuitPre <buffer> let b:quitting = 1
 	cabbrev <buffer> q! let b:quitting_bang = 1 <bar> q!
+	Limelight
 endfunction
 
 function! s:goyo_leave()
@@ -68,7 +68,12 @@ set path+=**
 set wildmenu
 set number relativenumber
 
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
-
 set keymap=russian-jcukenwin
+
+" Open and source .vimrc file
+nnoremap <leader>ev :sp $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Open personal_wiki file by ID under cursor in a new tab
+set wildcharm=<c-z>
+nnoremap <leader>tf :tabe<space>*<c-R><c-W><c-z><cr>
