@@ -11,3 +11,4 @@ alias update-exit="sudo apt update && sudo apt upgrade -y && sudo apt autoremove
 alias vim-notes="(cd $PERSONAL_WIKI && vim)"
 alias dc="docker-compose"
 alias todo-inbox="sed -i -e 's/^[^(].*/(I) &/' $TODO_DIR/todo.txt && t -x lsp i"
+alias dc-rm-networks="$USEFUL_SCRIPTS/bash/remove-docker-bridges.sh"
