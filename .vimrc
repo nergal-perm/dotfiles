@@ -64,11 +64,14 @@ autocmd! User GoyoLeave nested call <SID>goyo_leave()
 set nocompatible
 syntax enable
 filetype plugin on
-set path+=**
-set wildmenu
 set number relativenumber
 
 set keymap=russian-jcukenwin
+
+" Fuzzy file finder
+set path+=**
+set wildmenu
+set wildignorecase
 
 " Open and source .vimrc file
 nnoremap <leader>ev :sp $MYVIMRC<cr>
