@@ -80,3 +80,4 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 " Open personal_wiki file by ID under cursor in a new tab
 set wildcharm=<c-z>
 nnoremap <leader>tf :tabe<space>*<c-R><c-W><c-z><cr>
+nnoremap <leader>cr <c-c>bi<cr><c-c><s-a>
