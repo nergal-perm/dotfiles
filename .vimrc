@@ -10,6 +10,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'plasticboy/vim-markdown'
 Plug 'dracula/vim'
+Plug 'erichdongubler/vim-sublime-monokai'
 call plug#end()
 
 let g:vim_markdown_frontmatter=1
@@ -41,7 +42,6 @@ function! s:goyo_enter()
 	let b:quitting_bang = 0
 	autocmd QuitPre <buffer> let b:quitting = 1
 	cabbrev <buffer> q! let b:quitting_bang = 1 <bar> q!
-	Limelight
 endfunction
 
 function! s:goyo_leave()
@@ -53,7 +53,6 @@ function! s:goyo_leave()
 			qa
 		endif
 	  endif
-	  Limelight!
 endfunction
 		  
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
