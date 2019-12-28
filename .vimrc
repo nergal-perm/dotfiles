@@ -80,3 +80,14 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 set wildcharm=<c-z>
 nnoremap <leader>tf :tabe<space>*<c-R><c-W><c-z><cr>
 nnoremap <leader>cr <c-c>bi<cr><c-c><s-a>
+
+" Make obvious where 80 symbols border is
+set textwidth=80
+set colorcolumn=+1
+
+" Make silversearcher my default grep command
+" if executable('ag')
+  " Use ag over grep
+"   set grepprg=ag\ --nogroup\ --ignore-case\ --literal\ --stats "\ -C\ 2\ -H\ -i\ -Q 
+"   nnoremap K :grep! "<C-R><C-W>"<CR>:copen<CR>
+" endif
