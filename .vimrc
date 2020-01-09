@@ -48,7 +48,21 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Open personal_wiki file by ID under cursor in a new tab
 set wildcharm=<c-z>
-nnoremap <leader>tf :tabe<space>*<c-R><c-W><c-z><cr>
+nnoremap <leader>tff :tabe<space>**/<c-R><c-W><c-z><cr>
 nnoremap <leader>cr <c-c>bi<cr><c-c><s-a>
 
-
+function! JumpToAnchor()
+	let l:save_clipboard = &clipboard
+	set clipboard= " Avoid clobbering the selection and clipboard registers.
+	let l:save_reg = getreg('"')
+	let l:save_regmode = getregtype('"')
+	normal! yi[
+	let l:text = @@ " Your text object contents are here.
+	call setreg('"', l:save_reg, l:save_regmode)
+	let &clipboard = l:save_clipboard
+	let l:anchor = split(l:text, "-")[1]
+	let l:file = system("find . -name ".split(l:text, "-")[0]."*.md")
+	let l:result = "+/@" . l:anchor . " " . l:file
+	return l:result
+endfunction
+nnoremap <leader>tfa :execute 'tabe '.JumpToAnchor()<cr>
