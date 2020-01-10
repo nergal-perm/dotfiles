@@ -60,9 +60,16 @@ function! JumpToAnchor()
 	let l:text = @@ " Your text object contents are here.
 	call setreg('"', l:save_reg, l:save_regmode)
 	let &clipboard = l:save_clipboard
-	let l:anchor = split(l:text, "-")[1]
-	let l:file = system("find . -name ".split(l:text, "-")[0]."*.md")
+	let l:split = split(l:text, ":")
+	let l:anchor = l:split[1]
+	let l:file = system("find . -name ".l:split[0]."*.md")
 	let l:result = "+/@" . l:anchor . " " . l:file
 	return l:result
 endfunction
 nnoremap <leader>tfa :execute 'tabe '.JumpToAnchor()<cr>
+
+" Learn Vimscript the Hard Way Exercises
+
+" change lines order (move current line down or up)
+map - ddj<s-p>
+map _ ddk<s-p>
