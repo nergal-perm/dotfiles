@@ -27,6 +27,8 @@ function! SetUpMk()
 	" Make obvious where 80 symbols border is
 	set textwidth=80
 	set colorcolumn=+1
+	let g:vim_markdown_auto_insert_bullets=0
+	let g:vim_markdown_new_list_item_indent=2
 endfunction
 
 " Generic vim options
@@ -73,3 +75,12 @@ nnoremap <leader>tfa :execute 'tabe '.JumpToAnchor()<cr>
 " change lines order (move current line down or up)
 map - ddj<s-p>
 map _ ddk<s-p>
+
+" Function to know any syntax element group
+
+function! SynStack()
+    if !exists("*synstack")
+	    return
+    endif
+    echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
