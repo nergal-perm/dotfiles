@@ -84,3 +84,12 @@ function! SynStack()
     endif
     echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
+
+" Multiline abbreviation to enter markdown frontmatter
+iabbrev frmat ---
+\<CR>id: 
+\<CR>title:
+\<CR>tags:
+\<CR>private: false
+\<CR>---
+
