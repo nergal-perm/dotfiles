@@ -6,9 +6,10 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'plasticboy/vim-markdown'
+Plug 'nergal-perm/vim-markdown'
 Plug 'dracula/vim'
 Plug 'erichdongubler/vim-sublime-monokai'
+Plug 'trapd00r/vimpoint'
 call plug#end()
 
 let g:vim_markdown_frontmatter=1
@@ -50,8 +51,6 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Open personal_wiki file by ID under cursor in a new tab
 set wildcharm=<c-z>
-nnoremap <leader>tff :tabe<space>**/<c-R><c-W><c-z><cr>
-nnoremap <leader>cr <c-c>bi<cr><c-c><s-a>
 
 function! JumpToAnchor()
 	let l:save_clipboard = &clipboard
@@ -63,18 +62,16 @@ function! JumpToAnchor()
 	call setreg('"', l:save_reg, l:save_regmode)
 	let &clipboard = l:save_clipboard
 	let l:split = split(l:text, ":")
-	let l:anchor = l:split[1]
 	let l:file = system("find . -name ".l:split[0]."*.md")
-	let l:result = "+/@" . l:anchor . " " . l:file
+	if len(l:split) == 2
+		let l:anchor = l:split[1]
+		let l:result = "+/@" . l:anchor . " " . l:file
+	else 
+		let l:result = l:file
+	endif
 	return l:result
 endfunction
 nnoremap <leader>tfa :execute 'tabe '.JumpToAnchor()<cr>
-
-" Learn Vimscript the Hard Way Exercises
-
-" change lines order (move current line down or up)
-map - ddj<s-p>
-map _ ddk<s-p>
 
 " Function to know any syntax element group
 
@@ -93,3 +90,10 @@ iabbrev frmat ---
 \<CR>private: false
 \<CR>---
 
+setglobal termencoding=utf-8 fileencodings=
+scriptencoding utf-8
+set encoding=utf-8
+
+autocmd BufNewFile,BufRead  *   try
+autocmd BufNewFile,BufRead  *       set encoding=utf-8
+autocmd BufNewFile,BufRead  *   endtry
