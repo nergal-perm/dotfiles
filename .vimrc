@@ -71,16 +71,7 @@ function! JumpToAnchor()
 	endif
 	return l:result
 endfunction
-nnoremap <leader>tfa :execute 'tabe '.JumpToAnchor()<cr>
-
-" Function to know any syntax element group
-
-function! SynStack()
-    if !exists("*synstack")
-	    return
-    endif
-    echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
-endfunc
+nnoremap <leader>tf :execute 'tabe '.JumpToAnchor()<cr>
 
 " Multiline abbreviation to enter markdown frontmatter
 iabbrev frmat ---
@@ -89,11 +80,7 @@ iabbrev frmat ---
 \<CR>tags:
 \<CR>private: false
 \<CR>---
+\<CR>
 
-setglobal termencoding=utf-8 fileencodings=
-scriptencoding utf-8
-set encoding=utf-8
-
-autocmd BufNewFile,BufRead  *   try
-autocmd BufNewFile,BufRead  *       set encoding=utf-8
-autocmd BufNewFile,BufRead  *   endtry
+" Open quickfix entries in a new tab (or switch to existing one)
+set switchbuf+=usetab,newtab
