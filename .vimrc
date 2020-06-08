@@ -10,6 +10,7 @@ Plug 'nergal-perm/vim-markdown'
 Plug 'dracula/vim'
 Plug 'erichdongubler/vim-sublime-monokai'
 Plug 'trapd00r/vimpoint'
+Plug 'mileszs/ack.vim'
 call plug#end()
 
 let g:vim_markdown_frontmatter=1
@@ -84,3 +85,27 @@ iabbrev frmat ---
 
 " Open quickfix entries in a new tab (or switch to existing one)
 set switchbuf+=usetab,newtab
+
+" ack.vim
+" Use ripgrep for searching
+" Options:
+" --vimgrep -> Needed to parse the rg response properly for ack.vim
+" --type-not sql -> Avoid huge SQL dumps
+" --smart-case -> case-insensitive if all lowercase
+let g:ackprg = 'rg --vimgrep --type-not sql --smart-case'
+
+" Auto close the Quickfix window after pressing <enter> on a list item
+let g:ack_autoclose = 1
+
+" Any empty ack search will search the word under cursor
+let g:ack_use_cword_for_empty_search = 1
+
+" Don't jump to first match
+cnoreabbrev Ack Ack!
+
+" Maps <leader>rs so we're ready to type search term
+nnoremap <Leader>rs :Ack!<Space>
+
+" Navigate Quickfix list easily
+nnoremap <silent> [q :cprevious<CR>
+nnoremap <silent> ]q :cnext<CR>
