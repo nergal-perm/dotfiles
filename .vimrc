@@ -92,7 +92,7 @@ set switchbuf+=usetab,newtab
 " --vimgrep -> Needed to parse the rg response properly for ack.vim
 " --type-not sql -> Avoid huge SQL dumps
 " --smart-case -> case-insensitive if all lowercase
-let g:ackprg = 'rg --vimgrep --type-not sql --smart-case'
+let g:ackprg = 'rg --vimgrep --type-not sql --smart-case --stats'
 
 " Auto close the Quickfix window after pressing <enter> on a list item
 let g:ack_autoclose = 1
@@ -104,7 +104,8 @@ let g:ack_use_cword_for_empty_search = 1
 cnoreabbrev Ack Ack!
 
 " Maps <leader>rs so we're ready to type search term
-nnoremap <Leader>rs :Ack!<Space>
+nnoremap <Leader>sr :Ack!<Space>
+nnoremap <Leader>sl :Ack!<Space>\\[\\[<c-r><c-w><CR>
 
 " Navigate Quickfix list easily
 nnoremap <silent> [q :cprevious<CR>
