@@ -11,6 +11,7 @@ Plug 'dracula/vim'
 Plug 'erichdongubler/vim-sublime-monokai'
 Plug 'trapd00r/vimpoint'
 Plug 'mileszs/ack.vim'
+Plug 'wakatime/vim-wakatime'
 call plug#end()
 
 let g:vim_markdown_frontmatter=1
