@@ -74,6 +74,7 @@ function! JumpToAnchor()
 	return l:result
 endfunction
 nnoremap <leader>tf :execute 'tabe '.JumpToAnchor()<cr>
+nnoremap gd :execute 'tabe '.JumpToAnchor()<cr>
 
 " Multiline abbreviation to enter markdown frontmatter
 iabbrev frmat ---
@@ -111,3 +112,6 @@ nnoremap <Leader>sl :Ack!<Space>\\[\\[<c-r><c-w><CR>
 " Navigate Quickfix list easily
 nnoremap <silent> [q :cprevious<CR>
 nnoremap <silent> ]q :cnext<CR>
+
+" Insert yanked note ID
+nnoremap <Leader>il i[[<c-o><s-p>]]
