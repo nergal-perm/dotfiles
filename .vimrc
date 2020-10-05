@@ -18,6 +18,8 @@ let g:vim_markdown_frontmatter=1
 let g:vim_markdown_folding_disabled=1
 set conceallevel=0
 
+let g:mapleader=" "
+
 " Auto setup when opening markdown files
 augroup markdown
 	autocmd!
@@ -51,6 +53,11 @@ set wildignorecase
 nnoremap <leader>ev :sp $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
+" Navigate through buffers
+nnoremap gb :ls<CR>:b<Space>
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
+
 " Open personal_wiki file by ID under cursor in a new tab
 set wildcharm=<c-z>
 
@@ -73,8 +80,8 @@ function! JumpToAnchor()
 	endif
 	return l:result
 endfunction
-nnoremap <leader>tf :execute 'tabe '.JumpToAnchor()<cr>
-nnoremap gd :execute 'tabe '.JumpToAnchor()<cr>
+nnoremap <leader>tf :execute 'badd '.JumpToAnchor()<cr>
+nnoremap gd :execute 'badd '.JumpToAnchor()<cr>
 
 " Multiline abbreviation to enter markdown frontmatter
 iabbrev frmat ---
@@ -86,7 +93,7 @@ iabbrev frmat ---
 \<CR>
 
 " Open quickfix entries in a new tab (or switch to existing one)
-set switchbuf+=usetab,newtab
+set switchbuf=useopen
 
 " ack.vim
 " Use ripgrep for searching
