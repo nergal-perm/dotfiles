@@ -58,9 +58,8 @@ nnoremap gb :ls<CR>:b<Space>
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
 
-" Open personal_wiki file by ID under cursor in a new tab
+" Open personal_wiki file by ID under cursor in a new buffer
 set wildcharm=<c-z>
-
 function! JumpToAnchor()
 	let l:save_clipboard = &clipboard
 	set clipboard= " Avoid clobbering the selection and clipboard registers.
@@ -103,8 +102,8 @@ set switchbuf=useopen
 " --smart-case -> case-insensitive if all lowercase
 let g:ackprg = 'rg --vimgrep --type-not sql --smart-case --stats'
 
-" Auto close the Quickfix window after pressing <enter> on a list item
-let g:ack_autoclose = 1
+" Do not close the Quickfix window after pressing <enter> on a list item
+let g:ack_autoclose = 0
 
 " Any empty ack search will search the word under cursor
 let g:ack_use_cword_for_empty_search = 1
