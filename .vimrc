@@ -70,7 +70,7 @@ function! JumpToAnchor()
 	call setreg('"', l:save_reg, l:save_regmode)
 	let &clipboard = l:save_clipboard
 	let l:split = split(l:text, ":")
-	let l:file = system("find . -name ".l:split[0]."*.md")
+	let l:file = system("find ../. -name ".l:split[0]."*.md")
 	if len(l:split) == 2
 		let l:anchor = l:split[1]
 		let l:result = "+/@" . l:anchor . " " . l:file
@@ -79,7 +79,7 @@ function! JumpToAnchor()
 	endif
 	return l:result
 endfunction
-nnoremap <leader>tf :execute 'badd '.JumpToAnchor()<cr>
+nnoremap <leader>tf :execute 'echo '.JumpToAnchor()<cr>
 nnoremap gd :execute 'badd '.JumpToAnchor()<cr>
 
 " Multiline abbreviation to enter markdown frontmatter
