@@ -70,7 +70,7 @@ function! JumpToAnchor()
 	call setreg('"', l:save_reg, l:save_regmode)
 	let &clipboard = l:save_clipboard
 	let l:split = split(l:text, ":")
-	let l:file = system("find ../. -name ".l:split[0]."*.md")
+	let l:file = system("find . -name ".l:split[0]."*.md")
 	if len(l:split) == 2
 		let l:anchor = l:split[1]
 		let l:result = "+/@" . l:anchor . " " . l:file
@@ -100,7 +100,7 @@ set switchbuf=useopen
 " --vimgrep -> Needed to parse the rg response properly for ack.vim
 " --type-not sql -> Avoid huge SQL dumps
 " --smart-case -> case-insensitive if all lowercase
-let g:ackprg = 'rg --vimgrep --type-not sql --smart-case --stats'
+let g:ackprg = 'rg  --context=2 --vimgrep --type-not sql --smart-case'
 
 " Do not close the Quickfix window after pressing <enter> on a list item
 let g:ack_autoclose = 0
