@@ -42,7 +42,7 @@ syntax enable
 filetype plugin on
 set number relativenumber
 
-set keymap=russian-jcukenwin
+" set keymap=russian-jcukenwin
 
 " Fuzzy file finder
 set path+=**
