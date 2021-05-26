@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "7141f3a5eda84638",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c541df23a029de8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "templates/zettelkasten-frontmatter.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05a4093b56d9b5ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "f84e1050e9cc50db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44bd966bd74d89f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e7318cf06018b4ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "строитель",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c5d7c0888b9307e6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a5015d410c031af2",
+    "type": "split",
+    "children": [
+      {
+        "id": "42273c07ac60755d",
+        "type": "tabs",
+        "dimension": 37.851405622489956,
+        "children": [
+          {
+            "id": "3a343923caa23d09",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "templates/zettelkasten-frontmatter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "6427cd502cc34cef",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7d3bba1ce286e93e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "234e7b1774c53746",
+        "type": "tabs",
+        "dimension": 62.14859437751004,
+        "children": [
+          {
+            "id": "9fb806bc7feac539",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "templates/zettelkasten-frontmatter.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224439,
+                  "close": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 665.5
+  },
+  "active": "2c541df23a029de8",
+  "lastOpenFiles": [
+    "templates/zettelkasten-frontmatter.md",
+    "tiddlers/2021/202105262040.md",
+    "bibliography/2020/202004140757 Практическое ООП - Метц, Сэнди.md",
+    "private/gtd/recurring/Подать показания счетчиков.md",
+    "tiddlers/2021/202105260656 Использование и переиспользование кода.md",
+    "bibliography/2020/202002250605 Объектно-ориентированная разработка - Якобсон, Ивар.md",
+    "tiddlers/2021/202103280920 Разработке ПО не хватает практик промышленных процессов.md",
+    "tiddlers/2021/202105252151 Цель всей жизни - мастерство.md",
+    "tiddlers/2021/202105260656.md",
+    "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md"
+  ]
+}
