@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "7141f3a5eda84638",
+    "id": "2ab34c517ca48275",
     "type": "split",
     "children": [
       {
-        "id": "2c541df23a029de8",
+        "id": "7f85bc4f8d8c25dd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "templates/zettelkasten-frontmatter.md",
+            "file": "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "05a4093b56d9b5ec",
+    "id": "62e336ef53505f2e",
     "type": "split",
     "children": [
       {
-        "id": "f84e1050e9cc50db",
+        "id": "9cfe395314c6b2d7",
         "type": "tabs",
         "children": [
           {
-            "id": "44bd966bd74d89f0",
+            "id": "21d2d1554262391d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,14 +34,14 @@
             }
           },
           {
-            "id": "e7318cf06018b4ca",
+            "id": "78aabafa4c7c5c7e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "строитель",
+                "query": "стыд",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -49,37 +49,39 @@
             }
           },
           {
-            "id": "c5d7c0888b9307e6",
+            "id": "dfedce05976cb02c",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "empty",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 353,
+    "collapsed": true
   },
   "right": {
-    "id": "a5015d410c031af2",
+    "id": "b80cdd911ff24f8a",
     "type": "split",
     "children": [
       {
-        "id": "42273c07ac60755d",
+        "id": "121d251a06fb186f",
         "type": "tabs",
-        "dimension": 37.851405622489956,
+        "dimension": 39.94053518334985,
         "children": [
           {
-            "id": "3a343923caa23d09",
+            "id": "5bfb54ca94737a94",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/zettelkasten-frontmatter.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -89,61 +91,66 @@
             }
           },
           {
-            "id": "6427cd502cc34cef",
+            "id": "053d1d60ccab77da",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b76447c314cd3e1f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "940f32f42b9f67ec",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "7d3bba1ce286e93e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
           }
         ]
       },
       {
-        "id": "234e7b1774c53746",
+        "id": "58fe1b8894d0fc9f",
         "type": "tabs",
-        "dimension": 62.14859437751004,
+        "dimension": 60.05946481665014,
         "children": [
           {
-            "id": "9fb806bc7feac539",
+            "id": "753955e39b26cca9",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "templates/zettelkasten-frontmatter.md",
+                "file": "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
+                  "localInterlinks": true,
+                  "showTags": true,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
+                  "showArrow": true,
+                  "textFadeMultiplier": -0.3,
+                  "nodeSizeMultiplier": 1.06324786324786,
+                  "lineSizeMultiplier": 1.94273504273504,
                   "collapse-forces": true,
                   "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7132754626224439,
+                  "scale": 0.5053353897742624,
                   "close": false
                 }
               }
@@ -153,19 +160,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 665.5
+    "width": 467,
+    "collapsed": true
   },
-  "active": "2c541df23a029de8",
+  "active": "7f85bc4f8d8c25dd",
   "lastOpenFiles": [
-    "templates/zettelkasten-frontmatter.md",
-    "tiddlers/2021/202105262040.md",
-    "bibliography/2020/202004140757 Практическое ООП - Метц, Сэнди.md",
-    "private/gtd/recurring/Подать показания счетчиков.md",
+    "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
+    "tiddlers/2021/202105201916 Цивилизованность как следствие жестокости.md",
+    "tiddlers/2015/201503310226 Чтобы выжить, человеку приходилось развивать ум, а не стыд.md",
     "tiddlers/2021/202105260656 Использование и переиспользование кода.md",
-    "bibliography/2020/202002250605 Объектно-ориентированная разработка - Якобсон, Ивар.md",
-    "tiddlers/2021/202103280920 Разработке ПО не хватает практик промышленных процессов.md",
-    "tiddlers/2021/202105252151 Цель всей жизни - мастерство.md",
-    "tiddlers/2021/202105260656.md",
-    "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md"
+    "tiddlers/2021/202105021450 Мышление письмом - Анатолий Левенчук.md",
+    "tiddlers/2021/202105020153 Простое сделать легким - Рич Хикки.md",
+    "tiddlers/2021/202105021450.md",
+    "tiddlers/2021/202105020153.md",
+    "bibliography/2021/202104291612 Азбука системного мышления.md",
+    "tiddlers/2021/202104292052 Обратная связь в сложных системах запаздывает.md"
   ]
 }

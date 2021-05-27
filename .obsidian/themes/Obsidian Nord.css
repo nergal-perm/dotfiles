@@ -22,7 +22,7 @@
     --green:  #a3be8c;
     --purple: #b48ead;
 
-    --font-monospace: 'JetBrains Mono', 'Source Code Pro', monospace;
+    --font-monospace: 'Hack Nerd Font', 'Source Code Pro', monospace;
 }
 
 .theme-dark
@@ -273,11 +273,6 @@ img
     color: var(--inline-code) !important;
 }
 
-.markdown-source-view { 
-	font-family: 'JetBrains Mono', monospace; 
-	font-size: 0.9em !important;
-}
-
 .cm-s-obsidian,
 .cm-inline-code
 {
@@ -365,7 +360,7 @@ img
 .markdown-preview-section h1
 {
     font-weight: 500 !important;
-    font-size: 34px !important;
+    font-size: var(--font-size-primary) !important;
     color: var(--text-title-h1) !important;
 }
 
@@ -373,7 +368,7 @@ img
 .markdown-preview-section h2
 {
     font-weight: 500 !important;
-    font-size: 26px !important;
+    font-size: var(--font-size-primary) !important;   
     color: var(--text-title-h2) !important;
 }
 
@@ -381,7 +376,7 @@ img
 .markdown-preview-section h3
 {
     font-weight: 500 !important;
-    font-size: 22px !important;
+    font-size: var(--font-size-primary) !important;    
     color: var(--text-title-h3) !important;
 }
 
@@ -389,7 +384,7 @@ img
 .markdown-preview-section h4
 {
     font-weight: 500 !important;
-    font-size: 20px !important;
+    font-size: var(--font-size-primary) !important;
     color: var(--text-title-h4) !important;
 }
 
@@ -399,7 +394,7 @@ img
 .markdown-preview-section h6
 {
     font-weight: 500 !important;
-    font-size: 18px !important;
+    font-size: var(--font-size-primary) !important;   
     color: var(--text-title-h5) !important;
 }
 
