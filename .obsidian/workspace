@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7f85bc4f8d8c25dd",
+        "id": "59dd5a7c699a79c5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
+            "file": "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "стыд",
+                "query": "Вигерс",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353,
-    "collapsed": true
+    "width": 353
   },
   "right": {
     "id": "b80cdd911ff24f8a",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
+                "file": "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
+                "file": "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,17 +161,17 @@
     "direction": "horizontal",
     "width": 467
   },
-  "active": "7f85bc4f8d8c25dd",
+  "active": "59dd5a7c699a79c5",
   "lastOpenFiles": [
-    "bibliography/2021/202105252141 Код таланта Гениями не рождаются.md",
-    "tiddlers/2021/202105201916 Цивилизованность как следствие жестокости.md",
-    "tiddlers/2015/201503310226 Чтобы выжить, человеку приходилось развивать ум, а не стыд.md",
-    "tiddlers/2021/202105260656 Использование и переиспользование кода.md",
-    "tiddlers/2021/202105021450 Мышление письмом - Анатолий Левенчук.md",
-    "tiddlers/2021/202105020153 Простое сделать легким - Рич Хикки.md",
-    "tiddlers/2021/202105021450.md",
-    "tiddlers/2021/202105020153.md",
-    "bibliography/2021/202104291612 Азбука системного мышления.md",
-    "tiddlers/2021/202104292052 Обратная связь в сложных системах запаздывает.md"
+    "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
+    "tiddlers/100000000001 Pansubject quotes.md",
+    "tiddlers/2021/202105310831 Неопределенность затрат мешает развитию.md",
+    "tiddlers/2016/201607110231 Автоматизм и привычки мешают творчески смотреть на мир.md",
+    "tiddlers/REF 310.0.1. CHtobi zanimat'sya interesnimi veschami, nuzhno potratit' vremya, prilozhit' usiliya i preodolet' bar'er frustratsii.ztk.md",
+    "tiddlers/2021/202105310831Неопределенность затрат мешает развитию.md",
+    "bibliography/2017/201701060406 Первые 20 часов. Кауфман, Джош.md",
+    "tiddlers/2021/202105310824 Десять тысяч часов практики до уровня эксперта.md",
+    "bibliography/2016/201608020758 Эйнштейн гуляет по Луне. Фоер, Джошуа.md",
+    "tiddlers/REF 310.1.1. Dlya dostizheniya visokogo urovnya masterstva trebuetsya v srednem 10 tisyach chasov tselenapravlennih trenirovok.ztk.md"
   ]
 }
