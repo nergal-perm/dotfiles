@@ -69,15 +69,10 @@ function! JumpToAnchor()
 	let l:text = @@ " Your text object contents are here.
 	call setreg('"', l:save_reg, l:save_regmode)
 	let &clipboard = l:save_clipboard
-	let l:split = split(l:text, ":")
-	let l:file = system("find . -name ".l:split[0]."*.md")
-	if len(l:split) == 2
-		let l:anchor = l:split[1]
-		let l:result = "+/@" . l:anchor . " " . l:file
-	else 
-		let l:result = l:file
-	endif
-	return l:result
+	let l:split = split(l:text, " ")
+	echom system("find . -name ".l:split[0]."*.md")
+	let l:file = system("find . -name ".l:split[0]."*.md")[:-2]
+	return l:file
 endfunction
 nnoremap <leader>tf :execute 'echo '.JumpToAnchor()<cr>
 nnoremap gd :execute 'badd '.JumpToAnchor()<cr>

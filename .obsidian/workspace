@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
+            "file": "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Вигерс",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,12 +56,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 347.0036334991455,
+    "collapsed": true
   },
   "right": {
     "id": "b80cdd911ff24f8a",
@@ -70,7 +70,7 @@
       {
         "id": "121d251a06fb186f",
         "type": "tabs",
-        "dimension": 39.94053518334985,
+        "dimension": 48.474945533769066,
         "children": [
           {
             "id": "5bfb54ca94737a94",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
+                "file": "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
       {
         "id": "58fe1b8894d0fc9f",
         "type": "tabs",
-        "dimension": 60.05946481665014,
+        "dimension": 51.525054466230934,
         "children": [
           {
             "id": "753955e39b26cca9",
@@ -126,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
+                "file": "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -149,7 +149,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5053353897742624,
+                  "scale": 0.5847010959414525,
                   "close": false
                 }
               }
@@ -159,19 +159,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467
+    "width": 467.07220458984375
   },
   "active": "59dd5a7c699a79c5",
   "lastOpenFiles": [
+    "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
+    "tiddlers/2005/200502091418 Потребность принадлежать и чувствовать значимость.md",
+    "bibliography/2021/202106010827 Визуализируйте работу, автор Доминика Деграндис.md",
+    "bibliography/2021/202106030519 Ходячие мертвецы, автор Андрей Курпатов.md",
+    "tiddlers/2021/202105260656 Использование и переиспользование кода.md",
+    "tiddlers/2020/202006161016 Правила переиспользования фрагментов кода ПО.md",
     "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
     "tiddlers/100000000001 Pansubject quotes.md",
     "tiddlers/2021/202105310831 Неопределенность затрат мешает развитию.md",
-    "tiddlers/2016/201607110231 Автоматизм и привычки мешают творчески смотреть на мир.md",
-    "tiddlers/REF 310.0.1. CHtobi zanimat'sya interesnimi veschami, nuzhno potratit' vremya, prilozhit' usiliya i preodolet' bar'er frustratsii.ztk.md",
-    "tiddlers/2021/202105310831Неопределенность затрат мешает развитию.md",
-    "bibliography/2017/201701060406 Первые 20 часов. Кауфман, Джош.md",
-    "tiddlers/2021/202105310824 Десять тысяч часов практики до уровня эксперта.md",
-    "bibliography/2016/201608020758 Эйнштейн гуляет по Луне. Фоер, Джошуа.md",
-    "tiddlers/REF 310.1.1. Dlya dostizheniya visokogo urovnya masterstva trebuetsya v srednem 10 tisyach chasov tselenapravlennih trenirovok.ztk.md"
+    "tiddlers/2016/201607110231 Автоматизм и привычки мешают творчески смотреть на мир.md"
   ]
 }
