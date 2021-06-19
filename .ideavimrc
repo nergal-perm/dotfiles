@@ -7,7 +7,24 @@ set clipboard+=ideaput
 set showmode
 
 let mapleader = " "
+noremap <Esc> <nop>
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
 
+" Navigation
+nnoremap gD :action GotoImplementation<CR>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gr :action RecentFiles<CR>
+nnoremap gs :action GotoSupermethod<CR>
+nnoremap W :action EditorNextWordInDifferentHumpsMode<CR>
+nnoremap B :action EditorPreviousWordInDifferentHumpsMode<CR>
+vnoremap W :action EditorNextWordInDifferentHumpsModeWithSelection<CR>
+vnoremap B :action EditorPreviousWordInDifferentHumpsModeWithSelection<CR>
+
+" Editing
+vnoremap ds :action SurroundWith<CR>
+nnoremap dr :action Refactorings.QuickListPopupAction<CR>
+vnoremap dr :action Refactorings.QuickListPopupAction<CR>
 nnoremap <C-j> :m +1<CR>
 nnoremap <C-k> :m -2<CR>
 inoremap <C-j> <Esc>:m +1<CR>gi
@@ -21,16 +38,6 @@ nmap <leader>p "+p
 nmap <leader>P "+P
 vmap <leader>p "+p
 vmap <leader>P "+P
-
-" Navigation
-nnoremap gD :action GotoImplementation<CR>
-nnoremap gd :action GotoDeclaration<CR>
-nnoremap gr :action RecentFiles<CR>
-nnoremap gs :action GotoSupermethod<CR>
-
-" Editing
-vnoremap ds :action SurroundWith<CR>
-nnoremap dr :action Refactorings.QuickListPopupAction<CR>
 
 " VCS operations 
 nnoremap dc :action CheckinProject<CR>
@@ -47,3 +54,10 @@ nnoremap cn :action CloseAllNotifications<CR>
 
 " Build and Run
 nnoremap db :action MakeModule<CR>
+
+" extensions
+set surround
+
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
