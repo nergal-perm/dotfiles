@@ -1,0 +1,49 @@
+source ~/.vimrc
+
+set relativenumber
+set idearefactormode=keep
+set ideajoin
+set clipboard+=ideaput
+set showmode
+
+let mapleader = " "
+
+nnoremap <C-j> :m +1<CR>
+nnoremap <C-k> :m -2<CR>
+inoremap <C-j> <Esc>:m +1<CR>gi
+inoremap <C-k> <Esc>:m -2<CR>gi
+
+" system clipboard
+vmap <leader>y "+y
+vmap <leader>d "+d
+nmap <leader>y "+yy
+nmap <leader>p "+p
+nmap <leader>P "+P
+vmap <leader>p "+p
+vmap <leader>P "+P
+
+" Navigation
+nnoremap gD :action GotoImplementation<CR>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gr :action RecentFiles<CR>
+nnoremap gs :action GotoSupermethod<CR>
+
+" Editing
+vnoremap ds :action SurroundWith<CR>
+nnoremap dr :action Refactorings.QuickListPopupAction<CR>
+
+" VCS operations 
+nnoremap dc :action CheckinProject<CR>
+nnoremap du :action Vcs.UpdateProject<CR>
+nnoremap dg :action Vcs.QuickListPopupAction<CR>
+
+" View
+nnoremap si :action QuickImplementations<CR>
+nnoremap sd :action QuickJavaDoc<CR>
+nnoremap ss :action FileStructurePopup<CR>
+
+" Misc
+nnoremap cn :action CloseAllNotifications<CR>
+
+" Build and Run
+nnoremap db :action MakeModule<CR>
