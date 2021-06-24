@@ -41,8 +41,7 @@ set nocompatible
 syntax enable
 filetype plugin on
 set number relativenumber
-
-" set keymap=russian-jcukenwin
+set tags+=./tags;,tags
 
 " Fuzzy file finder
 set path+=**
@@ -57,25 +56,6 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap gb :ls<CR>:b<Space>
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
-
-" Open personal_wiki file by ID under cursor in a new buffer
-set wildcharm=<c-z>
-function! JumpToAnchor()
-	let l:save_clipboard = &clipboard
-	set clipboard= " Avoid clobbering the selection and clipboard registers.
-	let l:save_reg = getreg('"')
-	let l:save_regmode = getregtype('"')
-	normal! yi[
-	let l:text = @@ " Your text object contents are here.
-	call setreg('"', l:save_reg, l:save_regmode)
-	let &clipboard = l:save_clipboard
-	let l:split = split(l:text, " ")
-	echom system("find . -name ".l:split[0]."*.md")
-	let l:file = system("find . -name ".l:split[0]."*.md")[:-2]
-	return l:file
-endfunction
-nnoremap <leader>tf :execute 'echo '.JumpToAnchor()<cr>
-nnoremap gd :execute 'badd '.JumpToAnchor()<cr>
 
 " Multiline abbreviation to enter markdown frontmatter
 iabbrev frmat ---
