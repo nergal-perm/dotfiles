@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "59dd5a7c699a79c5",
+        "id": "4973e000400a91a8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
+            "file": "private/diary/2021/202107250000 Sunday.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "профессионал",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.0036334991455,
-    "collapsed": true
+    "width": 347.0036334991455
   },
   "right": {
     "id": "b80cdd911ff24f8a",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
+                "file": "private/diary/2021/202107250000 Sunday.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
+                "file": "private/diary/2021/202107250000 Sunday.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -161,17 +160,17 @@
     "direction": "horizontal",
     "width": 467.07220458984375
   },
-  "active": "59dd5a7c699a79c5",
+  "active": "4973e000400a91a8",
   "lastOpenFiles": [
-    "tiddlers/2014/201410180333 Что на самом деле нас мотивирует.md",
-    "tiddlers/2005/200502091418 Потребность принадлежать и чувствовать значимость.md",
-    "bibliography/2021/202106010827 Визуализируйте работу, автор Доминика Деграндис.md",
+    "private/diary/2021/202107250000 Sunday.md",
+    "bibliography/2021/202107061206 Птица за птицей, автор Энн Ламотт.md",
     "bibliography/2021/202106030519 Ходячие мертвецы, автор Андрей Курпатов.md",
-    "tiddlers/2021/202105260656 Использование и переиспользование кода.md",
-    "tiddlers/2020/202006161016 Правила переиспользования фрагментов кода ПО.md",
-    "tiddlers/REF 53. Razrabotka trebovanii k programmnomu obespecheniyu. Vigers, Karl.ztk.md",
-    "tiddlers/100000000001 Pansubject quotes.md",
-    "tiddlers/2021/202105310831 Неопределенность затрат мешает развитию.md",
-    "tiddlers/2016/201607110231 Автоматизм и привычки мешают творчески смотреть на мир.md"
+    "private/diary/2021/202107260000 Monday.md",
+    "bibliography/2021/202103050813 Lean Architecture.md",
+    "tiddlers/2021/202104292251 Системы с богатой структурой стабильнее однородных.md",
+    "tiddlers/2021/202104292302 Система - определение.md",
+    "tiddlers/2015/201505200557 Разнообразие интересов снижает уровень стресса.md",
+    "tiddlers/2021/202104292246 Усиливающая обратная связь приводит к росту.md",
+    "tiddlers/2021/202104292052 Обратная связь в сложных системах запаздывает.md"
   ]
 }

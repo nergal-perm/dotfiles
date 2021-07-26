@@ -5,6 +5,7 @@ set idearefactormode=keep
 set ideajoin
 set clipboard+=ideaput
 set showmode
+set keep-english-in-normal-and-restore-in-insert
 
 let mapleader = " "
 noremap <Esc> <nop>
@@ -12,7 +13,7 @@ nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 
 " Navigation
-nnoremap gD :action GotoImplementation<CR>
+nnoremap gi :action GotoImplementation<CR>
 nnoremap gd :action GotoDeclaration<CR>
 nnoremap gr :action RecentFiles<CR>
 nnoremap gs :action GotoSupermethod<CR>
@@ -27,8 +28,8 @@ nnoremap dr :action Refactorings.QuickListPopupAction<CR>
 vnoremap dr :action Refactorings.QuickListPopupAction<CR>
 nnoremap <C-j> :m +1<CR>
 nnoremap <C-k> :m -2<CR>
-inoremap <C-j> <Esc>:m +1<CR>gi
-inoremap <C-k> <Esc>:m -2<CR>gi
+inoremap <C-j> <Esc>:m +1<CR>i
+inoremap <C-k> <Esc>:m -2<CR>i
 
 " system clipboard
 vmap <leader>y "+y

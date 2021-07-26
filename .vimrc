@@ -53,7 +53,7 @@ nnoremap <leader>ev :sp $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Navigate through buffers
-nnoremap gb :ls<CR>:b<Space>
+nnoremap gr :ls<CR>:b!<Space>
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
 
