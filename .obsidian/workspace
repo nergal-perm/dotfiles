@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4973e000400a91a8",
+        "id": "ca14f3cd9681242f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "private/diary/2021/202107250000 Sunday.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "профессионал",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/diary/2021/202107250000 Sunday.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +121,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "private/diary/2021/202107250000 Sunday.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -160,17 +155,17 @@
     "direction": "horizontal",
     "width": 467.07220458984375
   },
-  "active": "4973e000400a91a8",
+  "active": "ca14f3cd9681242f",
   "lastOpenFiles": [
-    "private/diary/2021/202107250000 Sunday.md",
-    "bibliography/2021/202107061206 Птица за птицей, автор Энн Ламотт.md",
-    "bibliography/2021/202106030519 Ходячие мертвецы, автор Андрей Курпатов.md",
-    "private/diary/2021/202107260000 Monday.md",
-    "bibliography/2021/202103050813 Lean Architecture.md",
-    "tiddlers/2021/202104292251 Системы с богатой структурой стабильнее однородных.md",
-    "tiddlers/2021/202104292302 Система - определение.md",
-    "tiddlers/2015/201505200557 Разнообразие интересов снижает уровень стресса.md",
-    "tiddlers/2021/202104292246 Усиливающая обратная связь приводит к росту.md",
-    "tiddlers/2021/202104292052 Обратная связь в сложных системах запаздывает.md"
+    "bibliography/2019/201905071100 От 800 метров до марафона.md",
+    "bibliography/2019/201905050947 Спасите котика.md",
+    "bibliography/2019/201904011924 Сторителлинг, автор Аннетт Симмонс.md",
+    "bibliography/2019/201902041307 Как читать книги - Адлер, Мортимер.md",
+    "bibliography/2018/201812081929 Финиш.md",
+    "bibliography/2018/201809191735 Дневник как путь к себе. Кэтлин Адамс.md",
+    "bibliography/2018/201809171712 Мастерство - путешествие длиною в жизнь.md",
+    "bibliography/2018/201807310912 Шок будущего - Элвин Тоффлер.md",
+    "bibliography/2018/201806191116 Метод Седоны.md",
+    "bibliography/2018/201805161345 Тайм-драйв - как успевать жить и работать - Архангельский, Глеб.md"
   ]
 }
