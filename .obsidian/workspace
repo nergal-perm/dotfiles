@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4973e000400a91a8",
+        "id": "ca14f3cd9681242f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "оакли",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +122,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -161,17 +156,17 @@
     "direction": "horizontal",
     "width": 467.07220458984375
   },
-  "active": "4973e000400a91a8",
+  "active": "ca14f3cd9681242f",
   "lastOpenFiles": [
-    "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
-    "bibliography/2021/202101091113 No Sweat - Segar, Michelle.md",
-    "bibliography/2021/202101301931 Building Evolutionary Architectures.md",
-    "bibliography/2021/202102060903 Мифический человеко-месяц.md",
-    "bibliography/2021/202102231014 Курс Системное и критическое мышление.md",
-    "bibliography/2021/202102231042 Курс Логическое и критическое мышление.md",
-    "bibliography/2021/202102241625 The Art and Science of Smalltalk.md",
-    "private/diary/2021/202107270000 Tuesday.md",
-    "private/diary/2021/202107250000 Sunday.md",
-    "bibliography/2021/202107061206 Птица за птицей, автор Энн Ламотт.md"
+    "bibliography/2019/201905071100 От 800 метров до марафона.md",
+    "bibliography/2019/201905050947 Спасите котика.md",
+    "bibliography/2019/201904011924 Сторителлинг, автор Аннетт Симмонс.md",
+    "bibliography/2019/201902041307 Как читать книги - Адлер, Мортимер.md",
+    "bibliography/2018/201812081929 Финиш.md",
+    "bibliography/2018/201809191735 Дневник как путь к себе. Кэтлин Адамс.md",
+    "bibliography/2018/201809171712 Мастерство - путешествие длиною в жизнь.md",
+    "bibliography/2018/201807310912 Шок будущего - Элвин Тоффлер.md",
+    "bibliography/2018/201806191116 Метод Седоны.md",
+    "bibliography/2018/201805161345 Тайм-драйв - как успевать жить и работать - Архангельский, Глеб.md"
   ]
 }
