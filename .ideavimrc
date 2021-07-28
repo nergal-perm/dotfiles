@@ -17,6 +17,7 @@ nnoremap gi :action GotoImplementation<CR>
 nnoremap gd :action GotoDeclaration<CR>
 nnoremap gr :action RecentFiles<CR>
 nnoremap gs :action GotoSupermethod<CR>
+nnoremap gb :action Back<CR>
 nnoremap W :action EditorNextWordInDifferentHumpsMode<CR>
 nnoremap B :action EditorPreviousWordInDifferentHumpsMode<CR>
 vnoremap W :action EditorNextWordInDifferentHumpsModeWithSelection<CR>

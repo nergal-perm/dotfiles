@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "private/diary/2021/202107250000 Sunday.md",
+            "file": "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "профессионал",
+                "query": "оакли",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +56,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/diary/2021/202107250000 Sunday.md",
+                "file": "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "private/diary/2021/202107250000 Sunday.md",
+                "file": "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,15 +163,15 @@
   },
   "active": "4973e000400a91a8",
   "lastOpenFiles": [
+    "tiddlers/REF 302. Dumai kak matematik. Oakli, Barbara.ztk.md",
+    "bibliography/2021/202101091113 No Sweat - Segar, Michelle.md",
+    "bibliography/2021/202101301931 Building Evolutionary Architectures.md",
+    "bibliography/2021/202102060903 Мифический человеко-месяц.md",
+    "bibliography/2021/202102231014 Курс Системное и критическое мышление.md",
+    "bibliography/2021/202102231042 Курс Логическое и критическое мышление.md",
+    "bibliography/2021/202102241625 The Art and Science of Smalltalk.md",
+    "private/diary/2021/202107270000 Tuesday.md",
     "private/diary/2021/202107250000 Sunday.md",
-    "bibliography/2021/202107061206 Птица за птицей, автор Энн Ламотт.md",
-    "bibliography/2021/202106030519 Ходячие мертвецы, автор Андрей Курпатов.md",
-    "private/diary/2021/202107260000 Monday.md",
-    "bibliography/2021/202103050813 Lean Architecture.md",
-    "tiddlers/2021/202104292251 Системы с богатой структурой стабильнее однородных.md",
-    "tiddlers/2021/202104292302 Система - определение.md",
-    "tiddlers/2015/201505200557 Разнообразие интересов снижает уровень стресса.md",
-    "tiddlers/2021/202104292246 Усиливающая обратная связь приводит к росту.md",
-    "tiddlers/2021/202104292052 Обратная связь в сложных системах запаздывает.md"
+    "bibliography/2021/202107061206 Птица за птицей, автор Энн Ламотт.md"
   ]
 }
