@@ -12,6 +12,7 @@ Plug 'erichdongubler/vim-sublime-monokai'
 Plug 'trapd00r/vimpoint'
 Plug 'mileszs/ack.vim'
 Plug 'prettier/vim-prettier'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 let g:vim_markdown_frontmatter=1
