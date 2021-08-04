@@ -50,6 +50,7 @@ nnoremap dg :action Vcs.QuickListPopupAction<CR>
 nnoremap si :action QuickImplementations<CR>
 nnoremap sd :action QuickJavaDoc<CR>
 nnoremap ss :action FileStructurePopup<CR>
+nnoremap sp :action SelectInProjectView<CR>
 
 " Misc
 nnoremap cn :action CloseAllNotifications<CR>
