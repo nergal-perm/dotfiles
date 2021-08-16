@@ -1,5 +1,7 @@
 source ~/.vimrc
 
+let mapleader = " "
+
 set relativenumber
 set idearefactormode=keep
 set ideajoin
@@ -7,7 +9,6 @@ set clipboard+=ideaput
 set showmode
 set keep-english-in-normal-and-restore-in-insert
 
-let mapleader = " "
 noremap <Esc> <nop>
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
@@ -31,6 +32,10 @@ nnoremap <C-j> :m +1<CR>
 nnoremap <C-k> :m -2<CR>
 inoremap <C-j> <Esc>:m +1<CR>i
 inoremap <C-k> <Esc>:m -2<CR>i
+
+" Searching
+set hlsearch
+nnoremap <leader>sh :nohlsearch<CR>
 
 " system clipboard
 vmap <leader>y "+y

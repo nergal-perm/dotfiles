@@ -59,6 +59,10 @@ nnoremap gr :ls<CR>:b!<Space>
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
 
+" Navigate through paragraphs
+nnoremap j gj
+nnoremap k gk
+
 " Multiline abbreviation to enter markdown frontmatter
 iabbrev frmat ---
 \<CR>id: 
