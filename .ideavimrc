@@ -58,8 +58,9 @@ nnoremap dg :action Vcs.QuickListPopupAction<CR>
 " View
 nnoremap si :action QuickImplementations<CR>
 nnoremap sd :action QuickJavaDoc<CR>
+nnoremap sf :action SelectInProjectView<CR>
 nnoremap ss :action FileStructurePopup<CR>
-nnoremap sp :action SelectInProjectView<CR>
+nnoremap sp :action ParameterInfo<CR>
 nnoremap sj :action ToggleRenderedDocPresentationForAll<CR>
 
 " Misc
