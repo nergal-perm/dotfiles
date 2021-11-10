@@ -14,3 +14,4 @@ alias todo-inbox="t archive && sed -i -e 's/^[^(].*/(I) &/' $TODO_DIR/todo.txt &
 alias dc-rm-networks="$USEFUL_SCRIPTS/bash/remove-docker-bridges.sh"
 alias lzd="lazydocker -f docker-compose.yaml -f local-java-dev.yaml"
 alias gtool="./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive &"
+alias cyp-clean="rm -rf allure-results/* && rm -rf junit-results/* && rm -rf runner-results/* && rm -rf cypress/screenshots/*"
