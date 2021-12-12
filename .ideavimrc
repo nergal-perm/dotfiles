@@ -66,6 +66,12 @@ nnoremap sj :action ToggleRenderedDocPresentationForAll<CR>
 " Misc
 nnoremap cn :action CloseAllNotifications<CR>
 
+" Split view
+:nnoremap wr :action StretchSplitToRight<CR>
+:nnoremap wl :action StretchSplitToLeft<CR>
+:nnoremap wt :action StretchSplitToTop<CR>
+:nnoremap wb :action StretchSplitToBottom<CR>
+
 " Build and Run
 nnoremap db :action MakeModule<CR>
 nnoremap dr :action ChooseRunConfiguration<CR>
