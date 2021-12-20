@@ -12,6 +12,7 @@ set keep-english-in-normal-and-restore-in-insert
 noremap <Esc> <nop>
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
+:map <leader>gf "zyiw:exe "vs ".@z.""<CR>
 
 " Navigation
 nnoremap gi :action GotoImplementation<CR>
