@@ -4,13 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "34feeff7dd0e085e",
+        "id": "e3bef05948fb83d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tiddlers/2018/201806060929 Самообразование.md",
-            "mode": "preview"
+            "file": "tiddlers/2020/202010051130 Мышление как формулирование отчужденной идеи.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "4560506c5772f10b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "topics/202112290942 Собранность и дисциплина.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "a60f7adaefc4ce38",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tiddlers/2021/202106030501 Причины ошибок на старте проектов.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "651c3413dd78b9bd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "bibliography/2021/202111111806 Образование для образованных (2021).md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#topic",
+                "query": "/\\[\\[\\d{12}\\n",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -47,21 +80,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "dfedce05976cb02c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 347.0036334991455,
-    "collapsed": true
+    "width": 347.0036334991455
   },
   "right": {
     "id": "b80cdd911ff24f8a",
@@ -78,39 +103,15 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tiddlers/2018/201806060929 Самообразование.md",
+                "file": "topics/202112290942 Собранность и дисциплина.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "053d1d60ccab77da",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b76447c314cd3e1f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "940f32f42b9f67ec",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -134,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tiddlers/2018/201806060929 Самообразование.md",
+                "file": "topics/202112290942 Собранность и дисциплина.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -158,7 +159,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.5847010959414525,
-                  "close": false
+                  "close": true
                 }
               }
             }
@@ -167,19 +168,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.07220458984375
+    "width": 467.07220458984375,
+    "collapsed": true
   },
-  "active": "34feeff7dd0e085e",
+  "active": "4560506c5772f10b",
   "lastOpenFiles": [
-    "tiddlers/2018/201806060929 Самообразование.md",
-    "tiddlers/2015/201502111506 Саморазвитие.md",
-    "tiddlers/2015/201502111409 Дневник Пифагора - упражнение на развитие памяти.md",
-    "tiddlers/2014/201405270603 Идеи для дневниковых записей на месяц.md",
-    "tiddlers/2015/201503160622 Хватит думать, пора действовать.md",
-    "bibliography/2020/202001120810 Самоменеджмент. Бишоф, Клаус и Анита.md",
-    "tiddlers/2020/202001120854 Поиск цели.md",
-    "tiddlers/2020/202005060807 Характеристики модели производственной архитектуры.md",
-    "bibliography/2020/202005060757 Принципы проектирования и разработки ПО.md",
-    "tiddlers/2020/202005060804 Приложения масштаба предприятия.md"
+    "topics/202112290942 Собранность и дисциплина.md",
+    "tiddlers/2021/202112291428 Первый шаг в неправильном направлении.md",
+    "tiddlers/2021/202106030501 Причины ошибок на старте проектов.md",
+    "bibliography/2020/202004272146 Object thinking - West, David.md",
+    "tiddlers/2021/202112281646 Правильно организованная работа не требует силы воли.md",
+    "tiddlers/2018/201804130924 ВАУ-проекты - продвижение.md",
+    "private/200000000000 Быстрые мысли, идеи.md",
+    "tiddlers/2021/202102021659 Единая философия важна для успешной реализации.md",
+    "tiddlers/2021/202103280940 Основные стадии производства.md",
+    "bibliography/2020/202010051657 How to Take Smart Notes. Sonke, Ahrens.md"
   ]
 }
