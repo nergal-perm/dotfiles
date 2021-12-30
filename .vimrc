@@ -13,6 +13,9 @@ Plug 'trapd00r/vimpoint'
 Plug 'mileszs/ack.vim'
 Plug 'prettier/vim-prettier'
 Plug 'tpope/vim-surround'
+Plug 'fatih/vim-go'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 let g:vim_markdown_frontmatter=1
@@ -102,3 +105,5 @@ nnoremap <silent> ]q :cnext<CR>
 
 " Insert yanked note ID
 nnoremap <Leader>il i[[<c-o><s-p>]]
+
+let g:airline_powerline_fonts=0
