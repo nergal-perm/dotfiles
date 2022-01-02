@@ -1,1 +1,4 @@
-{"format":"YYYYMMDD0000 dddd","folder":"private/diary/2021"}
+{
+  "format": "YYYYMMDD dddd",
+  "folder": "private/diary/2022"
+}
