@@ -4,46 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "e3bef05948fb83d4",
+        "id": "4ad2946a9be2ce86",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tiddlers/2020/202010051130 Мышление как формулирование отчужденной идеи.md",
-            "mode": "source"
+            "file": "private/diary/2022/2022-03-11 Friday.md",
+            "mode": "source",
+            "backlinks": true
           }
         }
       },
       {
-        "id": "4560506c5772f10b",
+        "id": "1529440f011d99e7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "topics/202112290942 Собранность и дисциплина.md",
-            "mode": "source"
+            "file": "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
+            "mode": "source",
+            "backlinks": true
           }
         }
       },
       {
-        "id": "a60f7adaefc4ce38",
+        "id": "843d6f799f90f5f1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tiddlers/2021/202106030501 Причины ошибок на старте проектов.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "651c3413dd78b9bd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "bibliography/2021/202111111806 Образование для образованных (2021).md",
-            "mode": "source"
+            "file": "tiddlers/Pizanskaya bashnya - primer ustoichivosti dlya krivobokih dush i idei.ztk.md",
+            "mode": "preview",
+            "backlinks": true
           }
         }
       }
@@ -72,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\[\\[\\d{12}\\n",
+                "query": "пизанская баш",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,12 +73,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.0036334991455
+    "width": 239.5
   },
   "right": {
     "id": "b80cdd911ff24f8a",
@@ -103,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "topics/202112290942 Собранность и дисциплина.md",
+                "file": "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +113,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "58fe1b8894d0fc9f",
@@ -135,7 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "topics/202112290942 Собранность и дисциплина.md",
+                "file": "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,17 +163,17 @@
     "width": 467.07220458984375,
     "collapsed": true
   },
-  "active": "4560506c5772f10b",
+  "active": "1529440f011d99e7",
   "lastOpenFiles": [
-    "topics/202112290942 Собранность и дисциплина.md",
-    "tiddlers/2021/202112291428 Первый шаг в неправильном направлении.md",
-    "tiddlers/2021/202106030501 Причины ошибок на старте проектов.md",
-    "bibliography/2020/202004272146 Object thinking - West, David.md",
-    "tiddlers/2021/202112281646 Правильно организованная работа не требует силы воли.md",
-    "tiddlers/2018/201804130924 ВАУ-проекты - продвижение.md",
-    "private/200000000000 Быстрые мысли, идеи.md",
-    "tiddlers/2021/202102021659 Единая философия важна для успешной реализации.md",
-    "tiddlers/2021/202103280940 Основные стадии производства.md",
-    "bibliography/2020/202010051657 How to Take Smart Notes. Sonke, Ahrens.md"
+    "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
+    "tiddlers/2022/202201111156 Задачи vs. Проблемы.md",
+    "private/diary/2022/2022-03-11 Friday.md",
+    "private/diary/weeks/2022-W11.md",
+    "tiddlers/Pizanskaya bashnya - primer ustoichivosti dlya krivobokih dush i idei.ztk.md",
+    "private/diary/2022/2022-03-13 Sunday.md",
+    "private/diary/2022/2022-03-12 Saturday.md",
+    "private/diary/2021/202112312359 Итоги 2021 года.md",
+    "private/diary/2021/202101280000 Thursday.md",
+    "private/gtd/projects/Починить люстру в большой комнате.md"
   ]
 }

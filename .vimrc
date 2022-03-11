@@ -107,3 +107,11 @@ nnoremap <silent> ]q :cnext<CR>
 nnoremap <Leader>il i[[<c-o><s-p>]]
 
 let g:airline_powerline_fonts=0
+vmap <leader>y "+y
+vmap <leader>d "+d
+nmap <leader>y "+y
+nmap <leader>p "+p
+nmap <leader>P "+P
+vmap <leader>p "+p
+vmap <leader>P "+P
+
