@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
+            "file": "private/gtd/202012250938 Календарные события.md",
             "mode": "source",
             "backlinks": true
           }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
+                "file": "private/gtd/202012250938 Календарные события.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
+                "file": "private/gtd/202012250938 Календарные события.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -160,20 +160,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.07220458984375,
-    "collapsed": true
+    "width": 467.07220458984375
   },
   "active": "1529440f011d99e7",
   "lastOpenFiles": [
+    "private/gtd/202012250938 Календарные события.md",
+    "private/diary/weeks/2022-W12.md",
+    "private/diary/2022/2022-03-14 Monday.md",
+    "private/diary/2022/2022-03-11 Friday.md",
     "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
     "tiddlers/2022/202201111156 Задачи vs. Проблемы.md",
-    "private/diary/2022/2022-03-11 Friday.md",
     "private/diary/weeks/2022-W11.md",
     "tiddlers/Pizanskaya bashnya - primer ustoichivosti dlya krivobokih dush i idei.ztk.md",
     "private/diary/2022/2022-03-13 Sunday.md",
-    "private/diary/2022/2022-03-12 Saturday.md",
-    "private/diary/2021/202112312359 Итоги 2021 года.md",
-    "private/diary/2021/202101280000 Thursday.md",
-    "private/gtd/projects/Починить люстру в большой комнате.md"
+    "private/diary/2022/2022-03-12 Saturday.md"
   ]
 }
