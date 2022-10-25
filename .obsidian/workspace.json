@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "2ab34c517ca48275",
+    "type": "split",
+    "children": [
+      {
+        "id": "2de971d2f6d63a1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be7a34a5464ab4f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bibliography/2022/202204041722 This is lean.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b1d69e31bbe6c6d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tiddlers/2022/202204051119 Эффективность по ресурсам и по потоку.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "57608f8bfe2dbfb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tiddlers/2022/202210240757 Закон Литтла.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3b8bd031f29d770f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "topics/202210250630 Принятие решений.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            },
+            "group": "10fd831b8ba3d0b9"
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f6ce664f0fbb3643",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55c7288f053e63db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "topics/202210250630 Принятие решений.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            },
+            "group": "10fd831b8ba3d0b9"
+          },
+          {
+            "id": "f24c52dacbd877bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tiddlers/2022/202201191144 Общий процесс принятия решений.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62e336ef53505f2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cfe395314c6b2d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21d2d1554262391d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "78aabafa4c7c5c7e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "my-comment",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 338.49999809265137,
+    "collapsed": true
+  },
+  "right": {
+    "id": "b80cdd911ff24f8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "121d251a06fb186f",
+        "type": "tabs",
+        "dimension": 48.474945533769066,
+        "children": [
+          {
+            "id": "5bfb54ca94737a94",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "topics/202210250630 Принятие решений.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb76fb4731c44f36",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "58fe1b8894d0fc9f",
+        "type": "tabs",
+        "dimension": 51.525054466230934,
+        "children": [
+          {
+            "id": "753955e39b26cca9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "topics/202210250630 Принятие решений.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -0.3,
+                  "nodeSizeMultiplier": 1.06324786324786,
+                  "lineSizeMultiplier": 1.94273504273504,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5847010959414525,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "55c7288f053e63db",
+  "lastOpenFiles": [
+    "tiddlers/2022/202201191144 Общий процесс принятия решений.md",
+    "topics/202210250630 Принятие решений.md",
+    "templates/topic-note.md",
+    "templates/book-info.md",
+    "templates/daily-note.md",
+    "templates/zettelkasten-frontmatter.md",
+    "templates/weekly-note.md",
+    "tiddlers/2021/202111210939 Основные проектные роли и виды труда.md",
+    "bibliography/2022/202201101233 Системное саморазвитие.md",
+    "tiddlers/2019/201906050729 Принятие решений в условиях неопределённости.md"
+  ]
+}

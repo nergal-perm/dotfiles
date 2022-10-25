@@ -5,5 +5,8 @@
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
   "defaultViewMode": "preview",
-  "promptDelete": true
+  "promptDelete": true,
+  "livePreview": false,
+  "readableLineLength": false,
+  "showInlineTitle": false
 }

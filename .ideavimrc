@@ -2,7 +2,6 @@ source ~/.vimrc
 
 let mapleader = " "
 
-set relativenumber
 set idearefactormode=keep
 set ideajoin
 set clipboard+=ideaput

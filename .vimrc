@@ -44,7 +44,6 @@ endfunction
 set nocompatible
 syntax enable
 filetype plugin on
-set number relativenumber
 set tags+=./tags;,tags
 set hlsearch
 

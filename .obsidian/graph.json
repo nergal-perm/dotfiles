@@ -5,27 +5,27 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#книга",
+      "query": "tag:#source",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14105162
       }
     },
     {
-      "query": "tag:#тема",
+      "query": "tag:#topic",
       "color": {
         "a": 1,
-        "rgb": 10016792
+        "rgb": 12317745
       }
     },
     {
       "query": "tag:#person",
       "color": {
         "a": 1,
-        "rgb": 14449161
+        "rgb": 595932
       }
     },
     {
@@ -33,6 +33,20 @@
       "color": {
         "a": 1,
         "rgb": 3010768
+      }
+    },
+    {
+      "query": "tag:#problem",
+      "color": {
+        "a": 1,
+        "rgb": 10108604
+      }
+    },
+    {
+      "query": "tag:#base",
+      "color": {
+        "a": 1,
+        "rgb": 13740823
       }
     }
   ],
@@ -46,6 +60,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 183,
-  "scale": 0.03667484683474695,
-  "close": false
+  "scale": 0.09001487158903415,
+  "close": true
 }

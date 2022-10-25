@@ -1,0 +1,14 @@
+{
+  "snippets_file": "cmnt : <div class=\"my-comment\">$nl$$end$$nl$</div>\n",
+  "snippets": [
+    "cmnt : <div class=\"my-comment\">$nl$$end$$nl$</div>"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": false,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

@@ -1,5 +1,11 @@
 {
-  "baseFontSize": 13,
+  "baseFontSize": 16,
   "cssTheme": "Obsidian Nord",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "textFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "lp"
+  ]
 }

@@ -4,40 +4,80 @@
     "type": "split",
     "children": [
       {
-        "id": "4ad2946a9be2ce86",
+        "id": "de71e4e57fbff9db",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "private/diary/2022/2022-03-11 Friday.md",
+            "file": "bibliography/2021/202109231055 Пятая дисциплина, автор Питер Сенге.md",
             "mode": "source",
-            "backlinks": true
+            "backlinks": true,
+            "source": false
           }
         }
       },
       {
-        "id": "1529440f011d99e7",
+        "id": "50128040871c0d4c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "private/gtd/202012250938 Календарные события.md",
+            "file": "bibliography/2022/202206051139 The Fifth Discipline Fieldbook.md",
             "mode": "source",
-            "backlinks": true
+            "backlinks": true,
+            "source": false
           }
         }
       },
       {
-        "id": "843d6f799f90f5f1",
+        "id": "7789df2fc757b465",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tiddlers/Pizanskaya bashnya - primer ustoichivosti dlya krivobokih dush i idei.ztk.md",
-            "mode": "preview",
-            "backlinks": true
+            "file": "tiddlers/2021/202101091121 Конфликт краткосрочной выгоды и долгосрочных целей.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
           }
-        }
+        },
+        "group": "92ce3eaf0dcb4980"
+      },
+      {
+        "id": "c75a9eeb205de1f9",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "tiddlers/2021/202101091121 Конфликт краткосрочной выгоды и долгосрочных целей.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.499679487179487,
+              "repelStrength": 5.07371794871795,
+              "linkStrength": 1,
+              "linkDistance": 231,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "92ce3eaf0dcb4980"
       }
     ],
     "direction": "vertical"
@@ -64,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "пизанская баш",
+                "query": "tag:тема",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +113,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 338.49999809265137,
+    "collapsed": true
   },
   "right": {
     "id": "b80cdd911ff24f8a",
@@ -94,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/gtd/202012250938 Календарные события.md",
+                "file": "tiddlers/2021/202101091121 Конфликт краткосрочной выгоды и долгосрочных целей.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "private/gtd/202012250938 Календарные события.md",
+                "file": "tiddlers/2021/202101091121 Конфликт краткосрочной выгоды и долгосрочных целей.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -135,7 +177,7 @@
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
-                  "showTags": true,
+                  "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
@@ -160,19 +202,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.07220458984375
+    "width": 394.5,
+    "collapsed": true
   },
-  "active": "1529440f011d99e7",
+  "active": "c75a9eeb205de1f9",
   "lastOpenFiles": [
-    "private/gtd/202012250938 Календарные события.md",
-    "private/diary/weeks/2022-W12.md",
-    "private/diary/2022/2022-03-14 Monday.md",
-    "private/diary/2022/2022-03-11 Friday.md",
-    "bibliography/2022/202202270832 The Reflective practitioner, автор Donald Schon.md",
-    "tiddlers/2022/202201111156 Задачи vs. Проблемы.md",
-    "private/diary/weeks/2022-W11.md",
-    "tiddlers/Pizanskaya bashnya - primer ustoichivosti dlya krivobokih dush i idei.ztk.md",
-    "private/diary/2022/2022-03-13 Sunday.md",
-    "private/diary/2022/2022-03-12 Saturday.md"
+    "bibliography/2022/202206051139 The Fifth Discipline Fieldbook.md",
+    "tiddlers/2021/202101091121 Конфликт краткосрочной выгоды и долгосрочных целей.md",
+    "bibliography/2020/202003201644 99 бутылок ООП.md",
+    "tiddlers/2022/202202021307 Эвристики системного мышления.md",
+    "bibliography/2021/202109231055 Пятая дисциплина, автор Питер Сенге.md",
+    "tiddlers/2022/202210170003 Пять дисциплин обучающихся организаций.md",
+    "tiddlers/2021/202109250824 Основные способности команд к обучению.md",
+    "topics/201502111506 Саморазвитие.md",
+    "tiddlers/2022/202202060953 Созидательное напряжение как цель жизненного мастерства.md",
+    "tiddlers/2018/201806060929 Самообразование.md"
   ]
 }
