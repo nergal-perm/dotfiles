@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
-  "search": "\"private: false\" OR tag:#person",
+  "collapse-filter": false,
+  "search": "\"private: false\" OR tag:#person OR tag:#concept",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#source",
@@ -15,10 +15,10 @@
       }
     },
     {
-      "query": "tag:#topic",
+      "query": "tag:#project",
       "color": {
         "a": 1,
-        "rgb": 12317745
+        "rgb": 10346496
       }
     },
     {
@@ -48,6 +48,20 @@
         "a": 1,
         "rgb": 13740823
       }
+    },
+    {
+      "query": "tag:#topic",
+      "color": {
+        "a": 1,
+        "rgb": 16746496
+      }
+    },
+    {
+      "query": "tag:#concept",
+      "color": {
+        "a": 1,
+        "rgb": 13146848
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +74,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 183,
-  "scale": 0.09001487158903415,
+  "scale": 0.04325332379492558,
   "close": true
 }

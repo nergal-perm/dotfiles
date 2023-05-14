@@ -1,0 +1,13 @@
+.cm-content {
+  position: relative;
+}
+
+.mod-active .cm-content:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 80ex;
+  bottom: 0;
+  width: 1px;
+  background-color: rgb(10 10 10 / 10%);
+}

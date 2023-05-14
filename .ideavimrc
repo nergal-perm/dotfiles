@@ -4,7 +4,7 @@ let mapleader = " "
 
 set idearefactormode=keep
 set ideajoin
-set clipboard+=ideaput
+set clipboard=unnamed
 set showmode
 set keep-english-in-normal-and-restore-in-insert
 
@@ -17,8 +17,9 @@ nmap <CR> o<Esc>
 nnoremap gi :action GotoImplementation<CR>
 nnoremap gd :action GotoDeclaration<CR>
 nnoremap gr :action RecentFiles<CR> 
-nnoremap gs :action GotoSupermethod<CR>
+nnoremap gs :action GotoSuperMethod<CR>
 nnoremap gb :action Back<CR>
+nnoremap gt :action GotoTest<CR>
 nnoremap W :action EditorNextWordInDifferentHumpsMode<CR>
 nnoremap B :action EditorPreviousWordInDifferentHumpsMode<CR>
 vnoremap W :action EditorNextWordInDifferentHumpsModeWithSelection<CR>
@@ -32,6 +33,7 @@ vnoremap er :action Refactorings.QuickListPopupAction<CR>
 nnoremap ef :action ReformatCode<CR>
 vnoremap ef :action ReformatCode<CR>
 nnoremap eo :action OptimizeImports<CR>
+nnoremap ec :action ShowIntentionActions<CR>
 nnoremap <C-j> :m +1<CR>
 nnoremap <C-k> :m -2<CR>
 inoremap <C-j> <Esc>:m +1<CR>i

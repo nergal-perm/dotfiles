@@ -8,5 +8,6 @@
   "promptDelete": true,
   "livePreview": false,
   "readableLineLength": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "showFrontmatter": true
 }
