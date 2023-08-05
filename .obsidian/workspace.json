@@ -4,82 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f6ce664f0fbb3643",
+        "id": "c2ee4f3bb29d9ed9",
         "type": "tabs",
         "children": [
           {
-            "id": "ca2670d4af62c6cf",
+            "id": "de71e4e57fbff9db",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "topics/202201111512 Интересно прямо сейчас.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "64da218ef55754bb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "BORO Book.canvas",
-                "viewState": {
-                  "x": 496.15692177853134,
-                  "y": -667.8128433010648,
-                  "zoom": -1.0599999999999996
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9595abfa757fa538",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/202305141320 Недостаток технических знаний и навыков.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f01f560ddb717e3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tiddlers/2022/202301300807 ОО ошибочно предполагает, что люди воспринимают мир как объекты.md",
                 "mode": "preview",
                 "backlinks": true,
-                "source": true
-              }
+                "source": false
+              },
+              "pinned": true
             }
           },
           {
-            "id": "683f42f0db42182d",
+            "id": "c585bc82c2b2ac52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tiddlers/2022/202301291140 Два этапа реинжиниринга как пример концептуализации и абстрагирования.md",
+                "file": "bibliography/library.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,9 +65,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "облако",
+                "query": "императив",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -118,19 +75,41 @@
             }
           },
           {
-            "id": "d05989dc82d958a4",
+            "id": "0da8dbb25ef0af67",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "79b2d2d9ba501161",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5bfb54ca94737a94",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "bibliography/library.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
+    "width": 338.49999809265137,
     "collapsed": true
   },
   "right": {
@@ -140,25 +119,8 @@
       {
         "id": "121d251a06fb186f",
         "type": "tabs",
-        "dimension": 48.474945533769066,
+        "dimension": 35.32763532763533,
         "children": [
-          {
-            "id": "5bfb54ca94737a94",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "blog/202305141320 Недостаток технических знаний и навыков.md",
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "cb76fb4731c44f36",
             "type": "leaf",
@@ -166,33 +128,13 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "d99f5d213b888069",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "aed8b632ec267776",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "58fe1b8894d0fc9f",
         "type": "tabs",
-        "dimension": 51.525054466230934,
+        "dimension": 64.67236467236467,
         "children": [
           {
             "id": "753955e39b26cca9",
@@ -200,59 +142,30 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "blog/202305141320 Недостаток технических знаний и навыков.md",
+                "file": "bibliography/library.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": false,
+                  "localInterlinks": true,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
-                  "colorGroups": [
-                    {
-                      "query": "path:private",
-                      "color": {
-                        "a": 1,
-                        "rgb": 13750737
-                      }
-                    },
-                    {
-                      "query": "tag:source",
-                      "color": {
-                        "a": 1,
-                        "rgb": 13709599
-                      }
-                    },
-                    {
-                      "query": "tag:essay",
-                      "color": {
-                        "a": 1,
-                        "rgb": 4718579
-                      }
-                    },
-                    {
-                      "query": "tag:concept",
-                      "color": {
-                        "a": 1,
-                        "rgb": 6084188
-                      }
-                    }
-                  ],
+                  "colorGroups": [],
                   "collapse-display": true,
                   "showArrow": true,
                   "textFadeMultiplier": -0.3,
                   "nodeSizeMultiplier": 1.06324786324786,
                   "lineSizeMultiplier": 1.94273504273504,
                   "collapse-forces": true,
-                  "centerStrength": 0.322916666666667,
-                  "repelStrength": 18.0208333333333,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
                   "linkStrength": 1,
-                  "linkDistance": 106,
-                  "scale": 0.10149313097633722,
+                  "linkDistance": 250,
+                  "scale": 0.5847010959414525,
                   "close": true
                 }
               }
@@ -275,42 +188,39 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "9595abfa757fa538",
+  "active": "c585bc82c2b2ac52",
   "lastOpenFiles": [
-    "BORO Book.canvas",
-    "blog/202305141320 Недостаток технических знаний и навыков.md",
-    "tiddlers/2022/202302010714 Люди обычно воспринимают объекты реального мира как сущности со свойствами.md",
-    "tiddlers/2022/202302010720 Неверное понимание объектов мешает точному моделированию.md",
-    "tiddlers/2022/202302110853 Ошибочные предположения в современном бизнес-моделировании.md",
-    "bibliography/2023/202301291022 Business Objects Re-engineering for re-use.md",
-    "tiddlers/2022/202301291140 Два этапа реинжиниринга как пример концептуализации и абстрагирования.md",
-    "bibliography/2022/202208080906 Онтологика и коммуникация - курс ШСМ.md",
-    "tiddlers/2022/202301300807 ОО ошибочно предполагает, что люди воспринимают мир как объекты.md",
-    "blog/202305090733 Что такое архитектура в 2023.md",
-    "topics/202301220954 Моделирование работы команды.md",
+    "bibliography/2023/202306200823 Программирование таблиц решений.md",
+    "bibliography/library.md",
+    "bibliography/2023/202308050923 Code that fits in your head.md",
+    "templates/book-info.md",
+    "blog/202004241127 Намерения, а не детали реализации.md",
     "bibliography/2023/202305071735 The Art of Asking Essential Questions.md",
-    "bibliography/2023/202301160716 Практическое системное мышление - курс ШСМ.md",
-    "tiddlers/2021/202111151200 Бесконечное развитие в ходе решения усложняющихся проблем.md",
-    "tiddlers/2015/201502120100 Гибкость детского восприятия мира.md",
-    "tiddlers/images/constituents-of-a-rational-philosophy.jpg",
-    "tiddlers/2022/202201160935 Метрики DevOps и их влияние на результаты организации.md",
-    "tiddlers/2022/202201170939 Крупные письменные работы создаются на основе накопленных идей.md",
-    "tiddlers/2022/202201170951 Система ведения заметок должна стимулировать мышление.md",
-    "tiddlers/2022/202201171005 Общий ход процесса работы с заметками.md",
-    "tiddlers/2022/202201171032 Туннельный эффект.md",
-    "tiddlers/2022/202201171039 Беспорядок в типах приводит к беспорядку в содержании.md",
-    "tiddlers/2022/202201181551 Что такое операционный менеджмент.md",
-    "tiddlers/2022/202201191144 Общий процесс принятия решений.md",
-    "tiddlers/2022/202201200945 Ментальные блоки, мешающие работе над проектом.md",
-    "tiddlers/2022/202201230934 Познание или познавательный процесс.md",
-    "tiddlers/2022/202201251120 Принципы moldable development.md",
-    "Мышление и собранность в командах.canvas",
-    "Командная работа.canvas",
-    "bibliography/images/aging-signals.png",
-    "tiddlers/images/aging-signals.png",
-    "reference/disc_sample_profile_in_russian.pdf"
+    "private/gtd/projects/202306040941 Создание методики разработки на основе таблиц состояний.md",
+    "topics/202201111512 Интересно прямо сейчас.md",
+    "people/Seemann Mark.md",
+    "Marc Seemann.md",
+    "dashboard.md",
+    "current books.md",
+    "BORO Book.canvas",
+    "tiddlers/2018/201805101821 Архитектурная пирамида приложения.md",
+    "bibliography/2023/202308050926 null.md",
+    "bibliography/2023/202308050925 library.md",
+    "Book button.md",
+    "bibliography/2023/202308050917 Code that fits in your head.md",
+    "books.md",
+    "concepts/201807060921 Эффективность - определение.md",
+    "private/diary/2023/2023-08-04 Friday.md",
+    "^button-new-book-button.md",
+    "bibliography/2023/202308041642 Code that fits in your head.md",
+    "bibliography/2023/Untitled.md",
+    "Code that fits in your head.md",
+    "{{coverUrl}}.md",
+    "tiddlers/2022/202203281659 Трансдисциплины, дисциплины, технологии, метод.md",
+    "Поиск Java-Backend разработчика.canvas"
   ]
 }

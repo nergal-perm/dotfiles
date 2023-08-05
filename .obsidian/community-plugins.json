@@ -5,5 +5,9 @@
   "obsidian-journey-plugin",
   "note-refactor-obsidian",
   "dataview",
-  "text-snippets-obsidian"
+  "text-snippets-obsidian",
+  "templater-obsidian",
+  "buttons",
+  "supercharged-links-obsidian",
+  "obsidian-style-settings"
 ]

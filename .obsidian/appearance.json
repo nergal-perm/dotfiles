@@ -6,6 +6,13 @@
   "interfaceFontFamily": "",
   "accentColor": "",
   "enabledCssSnippets": [
-    "lp"
-  ]
+    "lp",
+    "vertical-line",
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "hide-yaml",
+    "supercharged-links-gen",
+    "naked-embeds"
+  ],
+  "nativeMenus": false
 }

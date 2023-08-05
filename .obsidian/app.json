@@ -6,7 +6,7 @@
   "strictLineBreaks": true,
   "defaultViewMode": "preview",
   "promptDelete": true,
-  "livePreview": false,
+  "livePreview": true,
   "readableLineLength": false,
   "showInlineTitle": false,
   "showFrontmatter": true

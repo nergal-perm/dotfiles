@@ -51,6 +51,8 @@ nmap <leader>p "+p
 nmap <leader>P "+P
 vmap <leader>p "+p
 vmap <leader>P "+P
+vmap <leader>ph :action PasteMultiple<CR>
+nmap <leader>ph :action PasteMultiple<CR>
 
 " VCS operations 
 nnoremap dc :action CheckinProject<CR>

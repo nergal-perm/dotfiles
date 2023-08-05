@@ -3,7 +3,7 @@
   "excludeFirstLineInNote": true,
   "headingFormat": "#",
   "newFileLocation": 2,
-  "customFolder": "tiddlers/2022",
+  "customFolder": "tiddlers/{{date:YYYY}}",
   "fileNamePrefix": "{{date:YYYYMMDDHHmm}} ",
   "transcludeByDefault": false,
   "noteLinkTemplate": "[[{{new_note_title}}]]",

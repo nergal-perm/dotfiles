@@ -5,7 +5,7 @@
   "graph": true,
   "backlink": true,
   "outgoing-link": false,
-  "tag-pane": true,
+  "tag-pane": false,
   "page-preview": true,
   "daily-notes": true,
   "templates": false,
