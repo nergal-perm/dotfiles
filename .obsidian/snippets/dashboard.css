@@ -49,6 +49,6 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
 }
 
 .dashboard div > ul > li {
-    min-width: 250px;
-    width: 20%;
+    min-width: 350px;
+    width: 30%;
 }

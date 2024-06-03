@@ -1,6 +1,6 @@
 {
-  "format": "YYYY-MM-DD dddd",
-  "folder": "private/diary/2023",
-  "template": "templates/daily-note",
+  "format": "YYYY-MM-DD",
+  "folder": "private/daily/2024",
+  "template": "",
   "autorun": false
 }

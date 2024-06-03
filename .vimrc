@@ -16,6 +16,7 @@ Plug 'tpope/vim-surround'
 Plug 'fatih/vim-go'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'github/copilot.vim'
 call plug#end()
 
 let g:vim_markdown_frontmatter=1

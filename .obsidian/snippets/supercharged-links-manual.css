@@ -1,0 +1,3 @@
+.data-link-icon[data-link-type*="scene" i]::before {
+  content: attr(data-link-status) " ";
+}

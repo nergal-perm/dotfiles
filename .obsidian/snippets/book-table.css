@@ -1,0 +1,17 @@
+.book-table {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.book-cover {
+  padding: 1.45rem;
+  flex: 30;
+}
+.book-description {
+  padding: 1.45rem;
+  flex: 70;
+}
+.book-description cite {
+  color: darkslateblue;
+}

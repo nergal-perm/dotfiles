@@ -1,7 +1,8 @@
 {
   "targetAttributes": [
     "type",
-    "cssclass"
+    "cssclass",
+    "status"
   ],
   "targetTags": true,
   "getFromInlineField": true,
@@ -20,6 +21,78 @@
       "matchCaseSensitive": false,
       "match": "exact",
       "uid": "70c8-2a42",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "type",
+      "value": "⚛",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "05e0-6da7",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "course",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "56b2-32b1",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "concept",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "e243-c321",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "topic",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d45d-99df",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "essay",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "7aaf-bf8e",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "article",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "6071-8f56",
       "selectText": true,
       "selectAppend": false,
       "selectPrepend": true,

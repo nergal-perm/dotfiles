@@ -1,0 +1,23 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Insert citation",
+      "format": "formatted-citation",
+      "cslStyle": "gost-r-7-0-5-2008-numeric-alphabetical"
+    },
+    {
+      "name": "Insert bibliography",
+      "format": "formatted-bibliography",
+      "cslStyle": "gost-r-7-0-5-2008-numeric-alphabetical"
+    }
+  ],
+  "exportFormats": [],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}

@@ -1,0 +1,169 @@
+{
+  "version": 3,
+  "projects": {},
+  "selectedDraftVaultPath": "private/gtd/projects/Strategy guide/Index.md",
+  "userScriptFolder": null,
+  "sessionStorage": "data",
+  "sessions": [
+    {
+      "start": "2024-02-13T06:37:35.152Z",
+      "total": 12051,
+      "drafts": {
+        "private/gtd/projects/Strategy guide/Index.md": {
+          "total": 1702,
+          "scenes": {
+            "2024-05 Итоги и планы": 1317,
+            "2024-06 План и итог месяца": 94,
+            "06-w1 - План и итог недели": 291
+          }
+        },
+        "private/gtd/projects/TameFlow Inception/Index.md": {
+          "total": 467,
+          "scenes": {
+            "Поток сознания": 23,
+            "Экспертная оценка трудоемкости": 153,
+            "Переход от идеальной трудоемкости к календарным срокам": 291
+          }
+        },
+        "private/gtd/projects/Sota-Driven Development/Index.md": {
+          "total": 3600,
+          "scenes": {
+            "Общее назначение статьи": 546,
+            "Проблемы разделения труда": 774,
+            "Вариативность состояний как драйвер сложности": 0,
+            "Софтверная археология": 86,
+            "Софт как набор условных состояний": 742,
+            "Таблицы принятия решений": 252,
+            "Практическое применение": 1200,
+            "Концепция реализации": 0
+          }
+        },
+        "private/gtd/projects/Cобранность как прикладное мастерство/Index.md": {
+          "total": 1066,
+          "scenes": {
+            "Личная собранность": 11,
+            "Мое понимание личной собранности": 402,
+            "Оценка личной собранности": 439,
+            "Референс по личной собранности": 75,
+            "Командная собранность ": 9,
+            "Мое понимание командной собранности": 41,
+            "Оценка командной собранности": 50,
+            "Референс по командной собранности": 39
+          }
+        },
+        "private/gtd/projects/Decision-Driven Development/Index.md": {
+          "total": 2339,
+          "scenes": {
+            "About me": 250,
+            "Programming languages are not languages at all": 0,
+            "Fractal (scaleless) TDD": 1194,
+            "Failing test for a minimal increment": 895
+          }
+        },
+        "private/gtd/projects/Algorithms Calisthenics/Index.md": {
+          "total": 426,
+          "scenes": {
+            "Introductory video": 426
+          }
+        },
+        "private/gtd/projects/Музколлегия s01e02/Index.md": {
+          "total": 1403,
+          "scenes": {
+            "Vanilla Sky - Zvenit Yanvarskaya Vyuga": 117,
+            "Princess Angine - Фантастический вальс": 77,
+            "Arc De Soleil - Got Caught in Amsterdam": 210,
+            "Crazy Lixx - All Looks, No Hooks": 118,
+            "Порнофильмы - Я так соскучился": 0,
+            "Anacondaz - Поезда": 0,
+            "Onyx - Last Dayz": 513,
+            "Kanye West - Runaway": 3,
+            "ВИА ГРА - Не надо": 111,
+            "LOGMARIN - Ноготки": 61,
+            "Cage the Elephant - Come a Little Closer": 0,
+            "Kasabian - Fire": 0,
+            "лампабикт - немерено": 0,
+            "Shortparis - Яблонный сад": 193,
+            "Такер - Как ни крути": 0,
+            "Земфира - Colette": 0,
+            "Metallica - The Memory Remains": 0,
+            "Paul Gilbert - Fuzz Universe": 0
+          }
+        },
+        "private/gtd/projects/ШСМ Практики саморазвития/Index.md": {
+          "total": 2451,
+          "scenes": {
+            "Подготовка к обучению": 576,
+            "1. О практиках саморазвития и втором мозге": 208,
+            "1.0. Вопросы для самопроверки": 356,
+            "1.1. Чек-лист оценки текущего состояния мастерства саморазвития": 738,
+            "1.2 Роли и практики": 103,
+            "1.3 Мой экзокортекс": 47,
+            "1.4 Список понятий": 94,
+            "1.5 Список неудовлетворенностей": 115,
+            "2. Инвестирование и учет времени": 214,
+            "2.0.": 0,
+            "2.1. Список информационных ресурсов": 0,
+            "2.2. Список моих затруднений": 0,
+            "2.3. Список понятий": 0
+          }
+        }
+      }
+    }
+  ],
+  "showWordCountInStatusBar": true,
+  "startNewSessionEachDay": false,
+  "sessionGoal": 500,
+  "applyGoalTo": "all",
+  "notifyOnGoal": false,
+  "countDeletionsForGoal": false,
+  "keepSessionCount": 30,
+  "sessionFile": "longform-sessions.json",
+  "numberScenes": false,
+  "sceneTemplate": "templates/project-scene.md",
+  "workflows": {
+    "Default Workflow": {
+      "name": "Default Workflow",
+      "description": "A starter workflow. Feel free to edit, rename, or delete it and create your own.",
+      "steps": [
+        {
+          "id": "strip-frontmatter",
+          "optionValues": {}
+        },
+        {
+          "id": "remove-comments",
+          "optionValues": {
+            "remove-markdown-comments": true,
+            "remove-html-comments": true
+          }
+        },
+        {
+          "id": "remove-links",
+          "optionValues": {
+            "remove-wikilinks": true,
+            "remove-external-links": true
+          }
+        },
+        {
+          "id": "prepend-title",
+          "optionValues": {
+            "format": "$3{#} $1",
+            "separator": "\n\n"
+          }
+        },
+        {
+          "id": "concatenate-text",
+          "optionValues": {
+            "separator": "\\n\\n---\\n\\n"
+          }
+        },
+        {
+          "id": "write-to-note",
+          "optionValues": {
+            "target": "manuscript.md",
+            "open-after": true
+          }
+        }
+      ]
+    }
+  }
+}

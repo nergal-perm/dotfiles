@@ -14,12 +14,13 @@ nmap <CR> o<Esc>
 :map <leader>gf "zyiw:exe "vs ".@z.""<CR>
 
 " Navigation
+nnoremap gs :action GotoSuperMethod<CR>
 nnoremap gi :action GotoImplementation<CR>
 nnoremap gd :action GotoDeclaration<CR>
-nnoremap gr :action RecentFiles<CR> 
-nnoremap gs :action GotoSuperMethod<CR>
+nnoremap gr :action RecentFiles<CR>
 nnoremap gb :action Back<CR>
 nnoremap gt :action GotoTest<CR>
+nnoremap gz :action Scratch.ShowFilesPopup<CR>
 nnoremap W :action EditorNextWordInDifferentHumpsMode<CR>
 nnoremap B :action EditorPreviousWordInDifferentHumpsMode<CR>
 vnoremap W :action EditorNextWordInDifferentHumpsModeWithSelection<CR>
@@ -51,8 +52,8 @@ nmap <leader>p "+p
 nmap <leader>P "+P
 vmap <leader>p "+p
 vmap <leader>P "+P
-vmap <leader>ph :action PasteMultiple<CR>
-nmap <leader>ph :action PasteMultiple<CR>
+vmap <leader>h :action PasteMultiple<CR>
+nmap <leader>h :action PasteMultiple<CR>
 
 " VCS operations 
 nnoremap dc :action CheckinProject<CR>
@@ -75,10 +76,16 @@ nnoremap cn :action CloseAllNotifications<CR>
 :nnoremap wl :action StretchSplitToLeft<CR>
 :nnoremap wt :action StretchSplitToTop<CR>
 :nnoremap wb :action StretchSplitToBottom<CR>
+:nnoremap wc :action ChangeSplitOrientation<CR>
 
 " Build and Run
 nnoremap db :action MakeModule<CR>
 nnoremap dr :action ChooseRunConfiguration<CR>
+
+" Editor config
+nnoremap <leader>fi :action EditorIncreaseFontSize<CR>
+nnoremap <leader>fd :action EditorDecreaseFontSize<CR>
+nnoremap <leader>fr :action EditorResetFontSizeGlobal<CR>
 
 " extensions
 set surround

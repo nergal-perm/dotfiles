@@ -4,10 +4,17 @@
   "vimMode": true,
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "promptDelete": true,
   "livePreview": true,
   "readableLineLength": false,
   "showInlineTitle": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": true,
+    "margin": "0",
+    "downscalePercent": 70
+  }
 }

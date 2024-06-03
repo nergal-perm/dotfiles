@@ -1,10 +1,10 @@
 {
-  "baseFontSize": 19,
+  "baseFontSize": 14,
   "cssTheme": "Obsidian Nord",
   "theme": "moonstone",
   "textFontFamily": "JetBrains Mono",
   "interfaceFontFamily": "",
-  "accentColor": "",
+  "accentColor": "#280cdf",
   "enabledCssSnippets": [
     "lp",
     "vertical-line",
@@ -12,7 +12,12 @@
     "dashboard-ReadLineLength",
     "hide-yaml",
     "supercharged-links-gen",
-    "naked-embeds"
+    "naked-embeds",
+    "book-table",
+    "supercharged-links-scenes",
+    "supercharged-links-manual",
+    "longform"
   ],
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showViewHeader": true
 }

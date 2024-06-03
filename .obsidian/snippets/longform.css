@@ -1,0 +1,76 @@
+body {
+  --longform-status-opacity: 0.3;
+  --longform-status-padding: 0 2px 0 0;
+}
+
+[data-scene-status~="⬛"]::before {
+  content: "⬛";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="⚙️"]::before {
+  content: "⚙️";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="🟥"]::before {
+  content: "🟥";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="💡"]::before {
+  content: "💡";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="🧠"]::before {
+  content: "🧠";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="🔎"]::before {
+  content: "🔎";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="🟦"]::before {
+  content: "🟦";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="📋"]::before {
+  content: "📋";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="🖍"]::before {
+  content: "🖍";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="🟩"]::before {
+  content: "🟩";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="📦"]::before {
+  content: "📦";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}
+
+[data-scene-status~="📢"]::before {
+  content: "📢";
+  opacity: var(--longform-status-opacity);
+  padding: var(--longform-status-padding);
+}

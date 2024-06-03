@@ -1,24 +1,17 @@
 {
-  "collapse-filter": false,
-  "search": "\"private: false\" OR tag:#person OR tag:#concept",
+  "collapse-filter": true,
+  "search": "\"private: false\" OR tag:#person",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#source",
+      "query": "tag:#source OR [\"type\":course] OR [\"type\":book] OR [\"type\":article]",
       "color": {
         "a": 1,
         "rgb": 14105162
-      }
-    },
-    {
-      "query": "tag:#project",
-      "color": {
-        "a": 1,
-        "rgb": 10346496
       }
     },
     {
@@ -29,10 +22,10 @@
       }
     },
     {
-      "query": "tag:#essay",
+      "query": "[\"type\":essay]",
       "color": {
         "a": 1,
-        "rgb": 3010768
+        "rgb": 3655204
       }
     },
     {
@@ -43,21 +36,21 @@
       }
     },
     {
-      "query": "tag:#base",
+      "query": "tag:#base OR [\"type\":base]",
       "color": {
         "a": 1,
         "rgb": 13740823
       }
     },
     {
-      "query": "tag:#topic",
+      "query": "tag:#topic OR [\"type\":topic]",
       "color": {
         "a": 1,
         "rgb": 16746496
       }
     },
     {
-      "query": "tag:#concept",
+      "query": "tag:#concept OR [type:concept]",
       "color": {
         "a": 1,
         "rgb": 13146848
@@ -77,10 +70,10 @@
   "nodeSizeMultiplier": 1.3982905982906,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.170940170940171,
+  "centerStrength": 0.333333333333333,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 183,
+  "linkDistance": 30,
   "scale": 0.03955078125,
   "close": true
 }

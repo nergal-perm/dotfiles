@@ -2,12 +2,16 @@
   "obsidian-advanced-appearance",
   "table-editor-obsidian",
   "calendar",
-  "obsidian-journey-plugin",
   "note-refactor-obsidian",
   "dataview",
   "text-snippets-obsidian",
   "templater-obsidian",
   "buttons",
   "supercharged-links-obsidian",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "sync-graph-settings",
+  "obsidian-zotero-desktop-connector",
+  "longform",
+  "obsidian-wakatime",
+  "obsidian-tracker"
 ]
