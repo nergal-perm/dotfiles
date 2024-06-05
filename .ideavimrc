@@ -86,6 +86,7 @@ nnoremap dr :action ChooseRunConfiguration<CR>
 nnoremap <leader>fi :action EditorIncreaseFontSize<CR>
 nnoremap <leader>fd :action EditorDecreaseFontSize<CR>
 nnoremap <leader>fr :action EditorResetFontSizeGlobal<CR>
+nnoremap <leader>fs :action ToggleFullScreen<CR>
 
 " extensions
 set surround

@@ -6,7 +6,7 @@
       {
         "id": "c2ee4f3bb29d9ed9",
         "type": "tabs",
-        "dimension": 37.48615725359911,
+        "dimension": 36.544850498338874,
         "children": [
           {
             "id": "0644db61af03ae12",
@@ -32,13 +32,13 @@
             }
           },
           {
-            "id": "de71e4e57fbff9db",
+            "id": "48ebefd51796e54a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "topics/202201111512 Интересно прямо сейчас.md",
+                "file": "dashboard.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -58,26 +58,14 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "48ebefd51796e54a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dashboard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "1d2d71f5d76f0b67",
         "type": "tabs",
-        "dimension": 62.51384274640089,
+        "dimension": 63.45514950166113,
         "children": [
           {
             "id": "91ca598301a9153f",
@@ -85,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/gtd/projects/Algorithms Calisthenics/Introductory video.md",
+                "file": "private/gtd/projects/Algorithms Calisthenics/00 - Warmup.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -98,8 +86,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/gtd/projects/Strategy guide/06-w1 - План и итог недели.md",
-                "mode": "source",
+                "file": "private/daily/2023/2023-10-12.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -145,8 +133,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "6647dfcce090f961",
@@ -159,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/gtd/projects/Strategy guide/06-w1 - План и итог недели.md",
+                "file": "private/daily/2023/2023-10-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -178,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/gtd/projects/Strategy guide/06-w1 - План и итог недели.md",
+                "file": "private/daily/2023/2023-10-12.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -257,7 +244,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "private/gtd/projects/Strategy guide/06-w1 - План и итог недели.md",
+                "file": "private/daily/2023/2023-10-12.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "\"private: false\" OR tag:#person",
@@ -365,32 +352,33 @@
   },
   "active": "5834b7292f2475ab",
   "lastOpenFiles": [
-    "private/gtd/projects/Strategy guide/2024-05 Итоги и планы.md",
-    "private/gtd/projects/Strategy guide/06-w1 - План и итог недели.md",
-    "private/gtd/projects/Strategy guide/2024-06 План и итог месяца.md",
-    "private/daily/2024/2024-06-02.md",
-    "topics/202201111512 Интересно прямо сейчас.md",
-    "private/gtd/projects/Algorithms Calisthenics/Introductory video.md",
-    "private/gtd/projects/ШСМ Практики саморазвития/2.3. Список понятий.md",
-    "private/daily/2024/2024-06-01.md",
-    "tiddlers/2021/202105252151 Цель всей жизни - мастерство.md",
-    "private/daily/2024/2024-05-31.md",
-    "private/daily/2024/2024-05-29.md",
     "dashboard.md",
-    "templates/daily-note.md",
-    "private/daily/tracker.md",
     "current tasks.md",
-    "private/gtd/projects/Sota-Driven Development/Практическое применение.md",
-    "private/gtd/projects/Починить люстру в большой комнате.md",
-    "private/HolyScrum/201803281755 Дневной скрам.md",
-    "private/daily/2024/2024-05-30.md",
-    "private/daily/2024/2024-05-28.md",
-    "private/daily/2024/2024-05-22.md",
-    "private/weekly/2021-W50.md",
-    "private/201907021443 План действий на проекте MAAS.md",
-    "private/201804280738 Телеграм-бот для учета финансов.md",
-    "private/daily/2024/2024-05-20.md",
-    "bibliography/2023/202309141756 Практики саморазвития (ШСМ).md",
+    "private/daily/2023/2023-10-12 Thursday.md",
+    "private/daily/2023/2023-10-12.md",
+    "private/daily/2024/2024-06-05.md",
+    "bibliography/2023/202301250801 Начало бесконечности - Дэвид Дойч.md",
+    "bibliography/2024/202402240750 From X Programming to X Organization.md",
+    "bibliography/2024/202403032020 Блог в помощь.md",
+    "private/Логика статусов процесса работы с заметками.md",
+    "topics/202201111512 Интересно прямо сейчас.md",
+    "bibliography/2024/202404151215 Generic Tools, Specific Languages.md",
+    "private/daily/2023/2023-12-21.md",
+    "private/daily/2023/2023-12-09.md",
+    "private/daily/2023/2023-12-05.md",
+    "private/daily/2023/2023-12-01.md",
+    "private/daily/2023/2023-11-25.md",
+    "private/daily/2023/2023-11-21.md",
+    "private/daily/2023/2023-11-11 Saturday.md",
+    "private/daily/2023/2023-11-05.md",
+    "private/daily/2023/2023-11-04.md",
+    "private/daily/2023/2023-10-13.md",
+    "private/daily/2024/2024-04-01.md",
+    "private/gtd/projects/Algorithms Calisthenics/00 - Warmup.md",
+    "private/daily/2024/2024-06-04.md",
+    "private/daily/2024/2024-06-03.md",
+    "private/gtd/projects/Strategy guide/06-w1 - План и итог недели.md",
+    "private/gtd/projects/Algorithms Calisthenics/00 - Warmup.md~",
     "Untitled.canvas",
     "private/gtd/projects/ШСМ Практики саморазвития",
     "private/gtd/projects/Sota-Driven Development/manuscript.md~",
@@ -401,7 +389,6 @@
     "private/gtd/projects/Музколлегия s01e02",
     "private/gtd/projects/Decision-Driven Development/Fractal (scaleless) TDD.md~",
     "private/gtd/projects/Algorithms Calisthenics/Introductory video.md~",
-    "private/gtd/projects/Algorithms Calisthenics",
     "bibliography/images/1991-dbsd-cover.jpg",
     "bibliography/images/_e219a1a6-228d-4357-a70b-2f780cb56721.jpeg",
     "Командная работа.canvas",

@@ -1,20 +1,20 @@
 {
   "version": 3,
   "projects": {},
-  "selectedDraftVaultPath": "private/gtd/projects/Strategy guide/Index.md",
+  "selectedDraftVaultPath": "private/gtd/projects/Algorithms Calisthenics/Index.md",
   "userScriptFolder": null,
   "sessionStorage": "data",
   "sessions": [
     {
       "start": "2024-02-13T06:37:35.152Z",
-      "total": 12051,
+      "total": 12412,
       "drafts": {
         "private/gtd/projects/Strategy guide/Index.md": {
-          "total": 1702,
+          "total": 1782,
           "scenes": {
             "2024-05 Итоги и планы": 1317,
             "2024-06 План и итог месяца": 94,
-            "06-w1 - План и итог недели": 291
+            "06-w1 - План и итог недели": 371
           }
         },
         "private/gtd/projects/TameFlow Inception/Index.md": {
@@ -61,9 +61,10 @@
           }
         },
         "private/gtd/projects/Algorithms Calisthenics/Index.md": {
-          "total": 426,
+          "total": 707,
           "scenes": {
-            "Introductory video": 426
+            "Introductory article": 420,
+            "00 - Warmup": 287
           }
         },
         "private/gtd/projects/Музколлегия s01e02/Index.md": {

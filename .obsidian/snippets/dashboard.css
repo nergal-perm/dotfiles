@@ -44,11 +44,11 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
 .dashboard div > ul {
     list-style: none;
     display: flex;
-    column-gap: 50px;
+    column-gap: 30px;
     flex-flow: row wrap;
 }
 
 .dashboard div > ul > li {
     min-width: 350px;
-    width: 30%;
+    width: 100%;
 }
