@@ -24,19 +24,67 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // main.ts
 var main_exports = {};
 __export(main_exports, {
+  SyncGraphSettingTab: () => SyncGraphSettingTab,
   default: () => SyncGraphPlugin
 });
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
+var DEFAULT_SETTINGS = {
+  autoSync: false,
+  defaultDepth: 1,
+  defaultIncomingLinks: true,
+  defaultOutgoingLinks: true,
+  defaultNeighborLinks: true
+};
+var SyncGraphSettingTab = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    let { containerEl } = this;
+    containerEl.empty();
+    new import_obsidian.Setting(containerEl).setName("Auto Sync").addToggle((toggle) => toggle.setValue(this.plugin.settings.autoSync).onChange(async (value) => {
+      this.plugin.settings.autoSync = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("Default depth").addSlider((value) => value.setLimits(1, 5, 1).setValue(this.plugin.settings.defaultDepth).onChange(async (value2) => {
+      this.plugin.settings.defaultDepth = value2;
+      await this.plugin.saveSettings();
+    }).setDynamicTooltip());
+    new import_obsidian.Setting(containerEl).setName("Default Incoming Links").addToggle((toggle) => toggle.setValue(this.plugin.settings.defaultIncomingLinks).onChange(async (value) => {
+      this.plugin.settings.defaultIncomingLinks = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("Default Outgoing Links").addToggle((toggle) => toggle.setValue(this.plugin.settings.defaultOutgoingLinks).onChange(async (value) => {
+      this.plugin.settings.defaultOutgoingLinks = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("Default Neighbor Links").addToggle((toggle) => toggle.setValue(this.plugin.settings.defaultNeighborLinks).onChange(async (value) => {
+      this.plugin.settings.defaultNeighborLinks = value;
+      await this.plugin.saveSettings();
+    }));
+  }
+};
 var SyncGraphPlugin = class extends import_obsidian.Plugin {
   async onload() {
+    await this.loadSettings();
+    this.addSettingTab(new SyncGraphSettingTab(this.app, this));
     this.addCommand({
-      id: "sync-graph-colorgroups-to-localgraph",
+      id: "sync-graph-settings-to-localgraph",
       name: "Sync Graph Settings to Local Graph",
       callback: async () => {
         await this.syncGlobalToLocal();
       }
     });
+    this.app.workspace.on("active-leaf-change", async () => {
+      if (this.settings.autoSync) {
+        await this.syncGlobalToLocal();
+      }
+    });
+  }
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
   }
   async syncGlobalToLocal() {
     const configDir = this.app.vault.configDir;
@@ -45,18 +93,32 @@ var SyncGraphPlugin = class extends import_obsidian.Plugin {
     const graphConfig = JSON.parse(graphConfigJson);
     const graphColorGroups = graphConfig.colorGroups;
     const searchFilters = graphConfig.search;
+    const closeSettings = graphConfig.close;
+    const lineSizeMultiplier = graphConfig.lineSizeMultiplier;
+    const nodeSizeMultiplier = graphConfig.nodeSizeMultiplier;
     this.getLocalGraphLeaves().forEach((leaf) => {
-      this.setSettings(leaf, graphColorGroups, searchFilters);
+      this.setSettings(leaf, graphColorGroups, searchFilters, closeSettings, lineSizeMultiplier, nodeSizeMultiplier);
     });
   }
   getLocalGraphLeaves() {
     return this.app.workspace.getLeavesOfType("localgraph");
   }
-  setSettings(localGraphLeaf, colorGroups, searchFilters) {
+  setSettings(localGraphLeaf, colorGroups, searchFilters, closeSettings, lineSizeMultiplier, nodeSizeMultiplier) {
     const viewState = localGraphLeaf.getViewState();
     viewState.state.options.colorGroups = colorGroups;
     viewState.state.options.search = searchFilters;
+    viewState.state.options.close = closeSettings;
+    viewState.state.options.lineSizeMultiplier = lineSizeMultiplier;
+    viewState.state.options.nodeSizeMultiplier = nodeSizeMultiplier;
+    viewState.state.options.localJumps = this.settings.defaultDepth;
+    viewState.state.options.localBacklinks = this.settings.defaultIncomingLinks;
+    viewState.state.options.localForelinks = this.settings.defaultOutgoingLinks;
+    viewState.state.options.localInterlinks = this.settings.defaultNeighborLinks;
     localGraphLeaf.setViewState(viewState);
   }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
 };
-//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsibWFpbi50cyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiaW1wb3J0IHsgUGx1Z2luLCBXb3Jrc3BhY2VMZWFmLCBub3JtYWxpemVQYXRofSBmcm9tICdvYnNpZGlhbic7XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIFN5bmNHcmFwaFBsdWdpbiBleHRlbmRzIFBsdWdpbiB7XG5cdGFzeW5jIG9ubG9hZCgpIHtcblx0XHR0aGlzLmFkZENvbW1hbmQoe1xuXHRcdFx0aWQ6IFwic3luYy1ncmFwaC1jb2xvcmdyb3Vwcy10by1sb2NhbGdyYXBoXCIsXG5cdFx0XHRuYW1lOiBcIlN5bmMgR3JhcGggU2V0dGluZ3MgdG8gTG9jYWwgR3JhcGhcIixcblx0XHRcdGNhbGxiYWNrOiBhc3luYyAoKSA9PiB7IGF3YWl0IHRoaXMuc3luY0dsb2JhbFRvTG9jYWwoKSB9XG5cdFx0fSlcblx0fVxuXG5cdGFzeW5jIHN5bmNHbG9iYWxUb0xvY2FsKCkge1xuXHRcdGNvbnN0IGNvbmZpZ0RpciA9IHRoaXMuYXBwLnZhdWx0LmNvbmZpZ0Rpcjtcblx0XHRjb25zdCBncmFwaENvbmZpZ1BhdGggPSBub3JtYWxpemVQYXRoKGNvbmZpZ0RpciArICcvZ3JhcGguanNvbicpO1xuXG5cdFx0Ly8gdGhpcy5hcHAudmF1bHQuZ2V0QWJzdHJhY3RGaWxlQnlQYXRoKCcub2JzaWRpYW4vZ3JhcGguanNvbicpIHdvdWxkIHJldHVybiBudWxsXG5cdFx0Ly8gU28gd2UncmUgZG9pbmcgaXQgdGhlIGxlc3Mgc2FmZSB3YXlcblx0XHRjb25zdCBncmFwaENvbmZpZ0pzb24gPSBhd2FpdCB0aGlzLmFwcC52YXVsdC5hZGFwdGVyLnJlYWQoZ3JhcGhDb25maWdQYXRoKTtcblx0XHRjb25zdCBncmFwaENvbmZpZyA9IEpTT04ucGFyc2UoZ3JhcGhDb25maWdKc29uKTtcblx0XHRjb25zdCBncmFwaENvbG9yR3JvdXBzID0gZ3JhcGhDb25maWcuY29sb3JHcm91cHM7XG5cdFx0Y29uc3Qgc2VhcmNoRmlsdGVycyA9IGdyYXBoQ29uZmlnLnNlYXJjaDtcblx0XHR0aGlzLmdldExvY2FsR3JhcGhMZWF2ZXMoKS5mb3JFYWNoKChsZWFmKSA9PiB7XG5cdFx0XHR0aGlzLnNldFNldHRpbmdzKGxlYWYsIGdyYXBoQ29sb3JHcm91cHMsIHNlYXJjaEZpbHRlcnMpO1xuXHRcdH0pXG5cdH1cblxuXHRnZXRMb2NhbEdyYXBoTGVhdmVzKCkge1xuXHRcdHJldHVybiB0aGlzLmFwcC53b3Jrc3BhY2UuZ2V0TGVhdmVzT2ZUeXBlKCdsb2NhbGdyYXBoJyk7XG5cdH1cblx0XG5cdHNldFNldHRpbmdzKGxvY2FsR3JhcGhMZWFmOiBXb3Jrc3BhY2VMZWFmLCBjb2xvckdyb3VwczogYW55LCBzZWFyY2hGaWx0ZXJzOiBhbnkpIHtcblx0XHRjb25zdCB2aWV3U3RhdGUgPSBsb2NhbEdyYXBoTGVhZi5nZXRWaWV3U3RhdGUoKTtcblx0XHR2aWV3U3RhdGUuc3RhdGUub3B0aW9ucy5jb2xvckdyb3VwcyA9IGNvbG9yR3JvdXBzO1xuXHRcdHZpZXdTdGF0ZS5zdGF0ZS5vcHRpb25zLnNlYXJjaCA9IHNlYXJjaEZpbHRlcnM7XG5cdFx0bG9jYWxHcmFwaExlYWYuc2V0Vmlld1N0YXRlKHZpZXdTdGF0ZSk7XG5cdH1cbn0iXSwKICAibWFwcGluZ3MiOiAiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsc0JBQW9EO0FBRXBELElBQXFCLGtCQUFyQixjQUE2Qyx1QkFBTztBQUFBLEVBQ25ELE1BQU0sU0FBUztBQUNkLFNBQUssV0FBVztBQUFBLE1BQ2YsSUFBSTtBQUFBLE1BQ0osTUFBTTtBQUFBLE1BQ04sVUFBVSxZQUFZO0FBQUUsY0FBTSxLQUFLLGtCQUFrQjtBQUFBLE1BQUU7QUFBQSxJQUN4RCxDQUFDO0FBQUEsRUFDRjtBQUFBLEVBRUEsTUFBTSxvQkFBb0I7QUFDekIsVUFBTSxZQUFZLEtBQUssSUFBSSxNQUFNO0FBQ2pDLFVBQU0sa0JBQWtCLG1DQUFjLFlBQVksYUFBYTtBQUkvRCxVQUFNLGtCQUFrQixNQUFNLEtBQUssSUFBSSxNQUFNLFFBQVEsS0FBSyxlQUFlO0FBQ3pFLFVBQU0sY0FBYyxLQUFLLE1BQU0sZUFBZTtBQUM5QyxVQUFNLG1CQUFtQixZQUFZO0FBQ3JDLFVBQU0sZ0JBQWdCLFlBQVk7QUFDbEMsU0FBSyxvQkFBb0IsRUFBRSxRQUFRLENBQUMsU0FBUztBQUM1QyxXQUFLLFlBQVksTUFBTSxrQkFBa0IsYUFBYTtBQUFBLElBQ3ZELENBQUM7QUFBQSxFQUNGO0FBQUEsRUFFQSxzQkFBc0I7QUFDckIsV0FBTyxLQUFLLElBQUksVUFBVSxnQkFBZ0IsWUFBWTtBQUFBLEVBQ3ZEO0FBQUEsRUFFQSxZQUFZLGdCQUErQixhQUFrQixlQUFvQjtBQUNoRixVQUFNLFlBQVksZUFBZSxhQUFhO0FBQzlDLGNBQVUsTUFBTSxRQUFRLGNBQWM7QUFDdEMsY0FBVSxNQUFNLFFBQVEsU0FBUztBQUNqQyxtQkFBZSxhQUFhLFNBQVM7QUFBQSxFQUN0QztBQUNEOyIsCiAgIm5hbWVzIjogW10KfQo=
+
+/* nosourcemap */

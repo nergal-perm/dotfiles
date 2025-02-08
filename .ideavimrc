@@ -6,7 +6,7 @@ set idearefactormode=keep
 set ideajoin
 set clipboard=unnamed
 set showmode
-set keep-english-in-normal-and-restore-in-insert
+" set keep-english-in-normal-and-restore-in-insert
 
 noremap <Esc> <nop>
 nmap <S-Enter> O<Esc>
@@ -35,6 +35,8 @@ nnoremap ef :action ReformatCode<CR>
 vnoremap ef :action ReformatCode<CR>
 nnoremap eo :action OptimizeImports<CR>
 nnoremap ec :action ShowIntentionActions<CR>
+nnoremap eh :action OpenInlineChatAction<CR>
+vnoremap eh :action OpenInlineChatAction<CR>
 nnoremap <C-j> :m +1<CR>
 nnoremap <C-k> :m -2<CR>
 inoremap <C-j> <Esc>:m +1<CR>i
@@ -90,6 +92,16 @@ nnoremap <leader>fs :action ToggleFullScreen<CR>
 
 " extensions
 set surround
+
+" Clojure
+nnoremap gl :action ActivateClojureREPLToolWindow<CR>
+nnoremap dl :action :cursive.repl.actions/run-top-sexp<CR>
+vnoremap dl :action :cursive.repl.actions/run-top-sexp<CR>
+
+" Mob.sh
+nnoremap <leader>ms :action com.nowsprinting.intellij_mob.start<CR>
+nnoremap <leader>mn :action com.nowsprinting.intellij_mob.next<CR>
+nnoremap <leader>md :action com.nowsprinting.intellij_mob.done<CR>
 
 set NERDTree
 let g:NERDTreeMapActivateNode='l'

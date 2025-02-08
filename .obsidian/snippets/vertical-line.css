@@ -6,8 +6,8 @@
   position: absolute;
   content: "";
   top: 0;
-  left: 110ex;
+  left: 100ex;
   bottom: 0;
   width: 1px;
-  background-color: rgb(10 10 10 / 10%);
+  background-color: red;
 }

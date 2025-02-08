@@ -1,11 +1,13 @@
 {
   "includeFirstLineAsNoteHeading": false,
   "excludeFirstLineInNote": true,
+  "openNewNote": true,
   "headingFormat": "#",
   "newFileLocation": 2,
   "customFolder": "tiddlers/{{date:YYYY}}",
-  "fileNamePrefix": "{{date:YYYYMMDDHHmm}} ",
+  "fileNamePrefix": "",
   "transcludeByDefault": false,
   "noteLinkTemplate": "[[{{new_note_title}}]]",
-  "refactoredNoteTemplate": "---\nid: {{date:YYYYMMDDHHmm}}\ntitle: \"{{new_note_title}}\"\nprivate: false\n---\n\n{{new_note_content}}"
+  "refactoredNoteTemplate": "---\nid: {{date:YYYYMMDDHHmm}}\ntitle: \"{{new_note_title}}\"\ntags: \nprivate: false\nluhman: \n---\n\n{{new_note_content}}\n\n---\n\n- пред: [[]]\n- след: [[]]\n- см.также: [[]]",
+  "normalizeHeaderLevels": false
 }

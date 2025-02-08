@@ -6,14 +6,16 @@
       {
         "id": "c2ee4f3bb29d9ed9",
         "type": "tabs",
-        "dimension": 36.544850498338874,
+        "dimension": 38.02197802197802,
         "children": [
           {
             "id": "0644db61af03ae12",
             "type": "leaf",
             "state": {
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
+              "state": {},
+              "icon": "longform",
+              "title": "Longform"
             }
           },
           {
@@ -24,11 +26,13 @@
               "type": "markdown",
               "state": {
                 "file": "private/Логика статусов процесса работы с заметками.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Логика статусов процесса работы с заметками"
             }
           },
           {
@@ -41,60 +45,130 @@
                 "file": "dashboard.md",
                 "mode": "preview",
                 "backlinks": true,
-                "source": false
+                "source": true
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "dashboard"
             }
           },
           {
-            "id": "1ee1e5568dca699e",
+            "id": "7961d3ac2b265fe4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "current tasks.md",
+                "file": "tiddlers/2024/3-1a В разработке ПО специалисты часто не ищут лучшее решение.md",
                 "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "1d2d71f5d76f0b67",
-        "type": "tabs",
-        "dimension": 63.45514950166113,
-        "children": [
-          {
-            "id": "91ca598301a9153f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "private/gtd/projects/Algorithms Calisthenics/00 - Warmup.md",
-                "mode": "source",
                 "backlinks": true,
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "3-1a В разработке ПО специалисты часто не ищут лучшее решение"
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "c30f2a1e93e792c9",
+        "type": "tabs",
+        "dimension": 61.97802197802198,
+        "children": [
           {
-            "id": "5834b7292f2475ab",
+            "id": "6ab1d83d3d3555dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/daily/2023/2023-10-12.md",
+                "file": "bibliography/2023/202301291022 Business Objects Re-engineering for re-use.md",
                 "mode": "preview",
                 "backlinks": true,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "202301291022 Business Objects Re-engineering for re-use"
+            }
+          },
+          {
+            "id": "530e21457e697c76",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 65.25859517304843,
+                  "y": 522.5470167911135,
+                  "zoom": -1.2000000000000002
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "efe9be97e5eb7d7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tiddlers/2024/3-1a В разработке ПО специалисты часто не ищут лучшее решение.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "3-1a В разработке ПО специалисты часто не ищут лучшее решение"
+            }
+          },
+          {
+            "id": "d99a9889dad954a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tiddlers/2024/3-1a1 Неидеальные решения гарантированно приводят к ошибочной системе.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-1a1 Неидеальные решения гарантированно приводят к ошибочной системе"
+            }
+          },
+          {
+            "id": "3b3402ba40aeecb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bibliography/2024/202406051755 Many More Much Smaller Steps.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "202406051755 Many More Much Smaller Steps"
+            }
+          },
+          {
+            "id": "e8da3e28c1cecfd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bibliography/2019/201911090913 Структура и интерпретация компьютерных программ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "201911090913 Структура и интерпретация компьютерных программ"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +189,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -124,16 +200,19 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/идеал\\w*",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabeticalReverse"
-              }
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "6647dfcce090f961",
@@ -146,10 +225,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/daily/2023/2023-10-12.md",
+                "file": "tiddlers/2024/3-1a В разработке ПО специалисты часто не ищут лучшее решение.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 3-1a В разработке ПО специалисты часто не ищут лучшее решение"
             }
           }
         ]
@@ -165,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/daily/2023/2023-10-12.md",
+                "file": "tiddlers/2024/3-1a В разработке ПО специалисты часто не ищут лучшее решение.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -173,15 +254,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 3-1a В разработке ПО специалисты часто не ищут лучшее решение"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 325.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "b80cdd911ff24f8a",
@@ -190,14 +272,15 @@
       {
         "id": "121d251a06fb186f",
         "type": "tabs",
-        "dimension": 55.175688509021846,
         "children": [
           {
             "id": "cb76fb4731c44f36",
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -209,18 +292,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "3fc0e883bb8d0916",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -228,173 +302,96 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
-          }
-        ]
-      },
-      {
-        "id": "58fe1b8894d0fc9f",
-        "type": "tabs",
-        "dimension": 44.82431149097816,
-        "children": [
+          },
           {
-            "id": "753955e39b26cca9",
+            "id": "21c83e5fe3af02a9",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "tag",
               "state": {
-                "file": "private/daily/2023/2023-10-12.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "\"private: false\" OR tag:#person",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [
-                    {
-                      "query": "tag:#source OR [\"type\":course] OR [\"type\":book] OR [\"type\":article]",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14105162
-                      }
-                    },
-                    {
-                      "query": "tag:#person",
-                      "color": {
-                        "a": 1,
-                        "rgb": 595932
-                      }
-                    },
-                    {
-                      "query": "[\"type\":essay]",
-                      "color": {
-                        "a": 1,
-                        "rgb": 3655204
-                      }
-                    },
-                    {
-                      "query": "tag:#problem",
-                      "color": {
-                        "a": 1,
-                        "rgb": 10108604
-                      }
-                    },
-                    {
-                      "query": "tag:#base OR [\"type\":base]",
-                      "color": {
-                        "a": 1,
-                        "rgb": 13740823
-                      }
-                    },
-                    {
-                      "query": "tag:#topic OR [\"type\":topic]",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16746496
-                      }
-                    },
-                    {
-                      "query": "tag:#concept OR [type:concept]",
-                      "color": {
-                        "a": 1,
-                        "rgb": 13146848
-                      }
-                    },
-                    {
-                      "query": "tag:#idea",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14048429
-                      }
-                    }
-                  ],
-                  "collapse-display": true,
-                  "showArrow": true,
-                  "textFadeMultiplier": -0.3,
-                  "nodeSizeMultiplier": 1.06324786324786,
-                  "lineSizeMultiplier": 1.94273504273504,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.4345036377676792,
-                  "close": true
-                }
-              }
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 445.5,
+    "width": 395.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "graph:Open graph view": false,
+      "obsidian42-brat:BRAT": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "5834b7292f2475ab",
+  "active": "7961d3ac2b265fe4",
   "lastOpenFiles": [
-    "dashboard.md",
-    "current tasks.md",
-    "private/daily/2023/2023-10-12 Thursday.md",
-    "private/daily/2023/2023-10-12.md",
-    "private/daily/2024/2024-06-05.md",
-    "bibliography/2023/202301250801 Начало бесконечности - Дэвид Дойч.md",
-    "bibliography/2024/202402240750 From X Programming to X Organization.md",
-    "bibliography/2024/202403032020 Блог в помощь.md",
-    "private/Логика статусов процесса работы с заметками.md",
-    "topics/202201111512 Интересно прямо сейчас.md",
-    "bibliography/2024/202404151215 Generic Tools, Specific Languages.md",
-    "private/daily/2023/2023-12-21.md",
-    "private/daily/2023/2023-12-09.md",
-    "private/daily/2023/2023-12-05.md",
-    "private/daily/2023/2023-12-01.md",
-    "private/daily/2023/2023-11-25.md",
-    "private/daily/2023/2023-11-21.md",
-    "private/daily/2023/2023-11-11 Saturday.md",
-    "private/daily/2023/2023-11-05.md",
-    "private/daily/2023/2023-11-04.md",
-    "private/daily/2023/2023-10-13.md",
-    "private/daily/2024/2024-04-01.md",
-    "private/gtd/projects/Algorithms Calisthenics/00 - Warmup.md",
-    "private/daily/2024/2024-06-04.md",
-    "private/daily/2024/2024-06-03.md",
-    "private/gtd/projects/Strategy guide/06-w1 - План и итог недели.md",
-    "private/gtd/projects/Algorithms Calisthenics/00 - Warmup.md~",
+    "Luhman list.md",
+    "tiddlers/2024/3-1a1 Неидеальные решения гарантированно приводят к ошибочной системе.md",
+    "tiddlers/2024/3-2a Эффект ошибок в многоуровневой композиции накапливается экспоненциально.md",
+    "bibliography/2024/202406051755 Many More Much Smaller Steps.md",
+    "tiddlers/2024/3-2 Решение инженерной проблемы - это фрактальная композиция низкоуровневых решений.md",
+    "tiddlers/2024/3-1a В разработке ПО специалисты часто не ищут лучшее решение.md",
+    "bibliography/2022/202204131541 Principles of Product Development Flow.md",
+    "blog/202206140750 Формулирование определения обучающейся организации.md",
+    "tiddlers/2014/201407110601 Одержимость работой и полное безделье.md",
+    "tiddlers/2021/202102040839 Слагаемые успешного проекта.md",
+    "tiddlers/Kontekstno-zavisimoe proektirovanie - Osnovnie printsipi razrabotki prilozhenii.ztk.md",
+    "tiddlers/2023/3-1 Инженерная проблема характеризуется неопределенностью в четырех смыслах.md",
+    "tiddlers/2022/202301291140 Два этапа реинжиниринга как пример концептуализации и абстрагирования.md",
+    "bibliography/2019/201911090913 Структура и интерпретация компьютерных программ.md",
+    "bibliography/2023/202301291022 Business Objects Re-engineering for re-use.md",
+    "tiddlers/2020/202010091619 Влияние темпа роста стоимости изменений на проектные решения.md",
+    "tiddlers/REF 1.1. Energiya vsegda sleduet putem naimen'shego soprotivleniya.ztk.md",
+    "bibliography/2024/202408170948 The Checklist Manifesto.md",
+    "tiddlers/2015/201507290321 Задачи код-ката.md",
+    "Untitled.md",
     "Untitled.canvas",
-    "private/gtd/projects/ШСМ Практики саморазвития",
-    "private/gtd/projects/Sota-Driven Development/manuscript.md~",
-    "private/gtd/projects/Музколлегия s01e02/Crazy Lixx - All Looks, No Hooks.md~",
-    "private/gtd/projects/Музколлегия s01e02/Vanilla Sky - Zvenit Yanvarskaya Vyuga.md~",
-    "private/gtd/projects/Музколлегия s01e02/Arc De Soleil - Got Caught in Amsterdam.md~",
-    "private/gtd/projects/Музколлегия s01e02/Onyx - Last Dayz.md~",
-    "private/gtd/projects/Музколлегия s01e02",
-    "private/gtd/projects/Decision-Driven Development/Fractal (scaleless) TDD.md~",
-    "private/gtd/projects/Algorithms Calisthenics/Introductory video.md~",
-    "bibliography/images/1991-dbsd-cover.jpg",
-    "bibliography/images/_e219a1a6-228d-4357-a70b-2f780cb56721.jpeg",
+    "tiddlers/2024/202407101145 Условные обозначения для бизнес-объектов.md",
+    "tiddlers/2024/202407011701 4Д-экстенсионализм как критерий идентичности объекта.md",
+    "private/strategy/frust/Неготовность к дисциплинированным действиям на физическом уровне.md",
+    "private/daily/2024/2024-11-12.md",
+    "private/daily/2024/2024-11-11.md",
+    "private/daily/2024/2024-10-26.md",
+    "private/strategy/frust",
+    "private/gtd/projects/Decita Dev Log",
+    "private/HolyScrum/img/Sprint001_2018-04-01.png",
+    "private/gtd/projects/Book on DBD",
+    "private/gtd/projects/Strategy guide/2024-w33-plan.jpg",
+    "private/gtd/projects/Smalltalk Decita IDE",
+    "bibliography/2023/202301291022 Business Objects Re-engineering for re-use.md~",
+    "private/gtd/projects/Strategy guide/2024-07 План и итог месяца.md~",
+    "blog/202408040834 Итоги июля 2024.md~",
+    "tiddlers/images/ladder-of-inference.jpg",
+    "tiddlers/images/boro-whole-part-tuple-and-tuple-class-signs.png",
+    "tiddlers/images/boro-tuple-and-tuple-class-signs.png",
+    "tiddlers/images/boro-super-sub-tuple-class-sign.png",
+    "tiddlers/images/boro-super-subclass-tuples-class-sign.png",
+    "tiddlers/images/boro-class-subclass-tuple-sign.png",
+    "tiddlers/images/boro-class-member-tuple-sign.png",
+    "bibliography/images/boro-whole-part-tuple-and-tuple-class-signs.png",
+    "private/gtd/projects/ШСМ Рациональная работа",
+    "blog/images",
+    "private/gtd/projects/Algorithms Calisthenics/00 - Rules and Boilerplate.md~",
     "Командная работа.canvas",
-    "tiddlers/images/order-by-throughput-rate.png",
-    "tiddlers/images/throughput-rate-of-each-move.png",
-    "tiddlers/images/202010051657-cover.jpg",
     "Мышление и собранность в командах.canvas",
     "BORO Book.canvas",
     "Поиск Java-Backend разработчика.canvas"

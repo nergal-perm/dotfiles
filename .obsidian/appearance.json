@@ -1,13 +1,12 @@
 {
   "baseFontSize": 14,
   "cssTheme": "Obsidian Nord",
-  "theme": "moonstone",
+  "theme": "system",
   "textFontFamily": "JetBrains Mono",
   "interfaceFontFamily": "",
   "accentColor": "#280cdf",
   "enabledCssSnippets": [
     "lp",
-    "vertical-line",
     "dashboard",
     "dashboard-ReadLineLength",
     "hide-yaml",
@@ -16,7 +15,8 @@
     "book-table",
     "supercharged-links-scenes",
     "supercharged-links-manual",
-    "longform"
+    "longform",
+    "vertical-line"
   ],
   "nativeMenus": false,
   "showViewHeader": true
